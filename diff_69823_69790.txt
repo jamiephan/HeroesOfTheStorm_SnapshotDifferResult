@@ -1,0 +1,520 @@
+diff -r --ignore-file-name-case /snapshot-69790/mods/core.stormmod/base.stormdata/buildid.txt /snapshot-69823/mods/core.stormmod/base.stormdata/buildid.txt
+1c1
+< B69790
+---
+> B69823
+diff -r --ignore-file-name-case /snapshot-69790/mods/core.stormmod/base.stormdata/databuildid.txt /snapshot-69823/mods/core.stormmod/base.stormdata/databuildid.txt
+1c1
+< B69790
+---
+> B69823
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/artanisdata/artanisdata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/artanisdata/artanisdata.xml
+20,21c20,21
+<       <Vital index="Energy" value="70" />
+<       <Cooldown TimeUse="16" />
+---
+>       <Vital index="Energy" value="60" />
+>       <Cooldown TimeUse="14" />
+751c751,753
+<     <ArmorModification AllArmorBonus="20" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="20" />
+>     </ArmorModification>
+1102c1104,1106
+<     <ArmorModification AllArmorBonus="-25" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="-25" />
+>     </ArmorModification>
+2903c2907
+<         <Value value="-35.000000" />
+---
+>         <Value value="-30.000000" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/dryaddata/dryaddata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/dryaddata/dryaddata.xml
+1869,1870c1869,1870
+<     <Amount value="280" />
+<     <MultiplicativeModifierArray index="ChokingPollenFullStacksDamage" Validator="DryadChokingPollen3StacksNaturesToxinCombine" Modifier="0.286" />
+---
+>     <Amount value="296" />
+>     <MultiplicativeModifierArray index="ChokingPollenFullStacksDamage" Validator="DryadChokingPollen3StacksNaturesToxinCombine" Modifier="0.27" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/falstaddata/falstaddata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/falstaddata/falstaddata.xml
+30c30
+<       <Cooldown TimeUse="60" />
+---
+>       <Cooldown TimeUse="75" />
+2805c2805
+<         <Value value="-30.000000" />
+---
+>         <Value value="-40.000000" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml
+815c815
+<     <Duration value="2" />
+---
+>     <Duration value="1.5" />
+1711c1711
+<     <RechargeVitalRate value="252.7" />
+---
+>     <RechargeVitalRate value="240.73" />
+1961c1961
+<     <RechargeVitalRate value="190" />
+---
+>     <RechargeVitalRate value="181" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml
+116c116
+<       <Cooldown TimeUse="12" />
+---
+>       <Cooldown TimeUse="13" />
+158c158
+<     <MaxAccumulation value="1.5" />
+---
+>     <MaxAccumulation value="2.5" />
+161c161
+<     <MultiplierPerStep value="0.06" />
+---
+>     <MultiplierPerStep value="0.1" />
+692c692
+<       <AdditiveAttackSpeedFactor value="0.25" />
+---
+>       <AdditiveAttackSpeedFactor value="0.2" />
+729,730c729,730
+<     <Duration value="3" />
+<     <ArmorModification StackCount="4">
+---
+>     <Duration value="2" />
+>     <ArmorModification StackCount="2">
+1481c1481
+<     <RechargeVitalRate value="265" />
+---
+>     <RechargeVitalRate value="255" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherdata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/utherdata/utherdata.xml
+946c946
+<     <Duration value="0.75" />
+---
+>     <Duration value="1" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/rewarddata.xml
+3,9d2
+<   <const id="$HeroPortraits32" value="ui_heroes_portraits_sheet32.dds" />
+<   <const id="$HeroPortraits30" value="ui_heroes_portraits_sheet30.dds" />
+<   <const id="$HeroPortraits28" value="ui_heroes_portraits_sheet28.dds" />
+<   <const id="$HeroPortraits17" value="ui_heroes_portraits_sheet17.dds" />
+<   <const id="$HeroPortraits19" value="ui_heroes_portraits_sheet19.dds" />
+<   <const id="$HeroPortraits20" value="ui_heroes_portraits_sheet20.dds" />
+<   <const id="$HeroPortraits24" value="ui_heroes_portraits_sheet24.dds" />
+11,12c4,10
+<   <const id="$HeroPortraits22" value="ui_heroes_portraits_sheet22.dds" />
+<   <const id="$HeroPortraits13" value="ui_heroes_portraits_sheet13.dds" />
+---
+>   <const id="$HeroPortraits24" value="ui_heroes_portraits_sheet24.dds" />
+>   <const id="$HeroPortraits20" value="ui_heroes_portraits_sheet20.dds" />
+>   <const id="$HeroPortraits19" value="ui_heroes_portraits_sheet19.dds" />
+>   <const id="$HeroPortraits17" value="ui_heroes_portraits_sheet17.dds" />
+>   <const id="$HeroPortraits28" value="ui_heroes_portraits_sheet28.dds" />
+>   <const id="$HeroPortraits30" value="ui_heroes_portraits_sheet30.dds" />
+>   <const id="$HeroPortraits32" value="ui_heroes_portraits_sheet32.dds" />
+13a12,14
+>   <const id="$HeroPortraits13" value="ui_heroes_portraits_sheet13.dds" />
+>   <const id="$HeroPortraits22" value="ui_heroes_portraits_sheet22.dds" />
+>   <const id="$HeroPortraits33" value="ui_heroes_portraits_sheet33.dds" />
+17,21d17
+<   <const id="$HeroPortraits8" value="ui_heroes_portraits_sheet8.dds" />
+<   <const id="$HeroPortraits6" value="ui_heroes_portraits_sheet6.dds" />
+<   <const id="$HeroPortraits5" value="ui_heroes_portraits_sheet5.dds" />
+<   <const id="$HeroPortraits14" value="ui_heroes_portraits_sheet14.dds" />
+<   <const id="$HeroPortraits15" value="ui_heroes_portraits_sheet15.dds" />
+22a19,23
+>   <const id="$HeroPortraits15" value="ui_heroes_portraits_sheet15.dds" />
+>   <const id="$HeroPortraits14" value="ui_heroes_portraits_sheet14.dds" />
+>   <const id="$HeroPortraits5" value="ui_heroes_portraits_sheet5.dds" />
+>   <const id="$HeroPortraits6" value="ui_heroes_portraits_sheet6.dds" />
+>   <const id="$HeroPortraits8" value="ui_heroes_portraits_sheet8.dds" />
+26d26
+<   <const id="$HeroPortraits18" value="ui_heroes_portraits_sheet18.dds" />
+28,29c28
+<   <const id="$HeroPortraits23" value="ui_heroes_portraits_sheet23.dds" />
+<   <const id="$HeroPortraits11" value="ui_heroes_portraits_sheet11.dds" />
+---
+>   <const id="$HeroPortraits18" value="ui_heroes_portraits_sheet18.dds" />
+31,33c30,31
+<   <const id="$HeroPortraits4" value="ui_heroes_portraits_sheet4.dds" />
+<   <const id="$HeroPortraits1" value="ui_heroes_portraits_sheet1.dds" />
+<   <const id="$HeroRewards1" value="ui_heroes_rewardicons_sheet1.dds" />
+---
+>   <const id="$HeroPortraits11" value="ui_heroes_portraits_sheet11.dds" />
+>   <const id="$HeroPortraits23" value="ui_heroes_portraits_sheet23.dds" />
+34a33,35
+>   <const id="$HeroRewards1" value="ui_heroes_rewardicons_sheet1.dds" />
+>   <const id="$HeroPortraits1" value="ui_heroes_portraits_sheet1.dds" />
+>   <const id="$HeroPortraits4" value="ui_heroes_portraits_sheet4.dds" />
+37d37
+<   <const id="$HeroPortraits33" value="ui_heroes_portraits_sheet33.dds" />
+296a297,304
+>   <CRewardIcon id="ProgressionHeroPortraitCommon" parent="HeroRewardParent">
+>     <Description value="Reward/Description/HeroPortraitGeneric" />
+>     <TypeDescription value="BasicPortrait" />
+>   </CRewardIcon>
+>   <CRewardIcon id="ProgressionHeroPortraitMaster" parent="HeroRewardParent">
+>     <Description value="Reward/Description/HeroPortraitGenericEpic" />
+>     <TypeDescription value="MasterPortrait" />
+>   </CRewardIcon>
+5282d5289
+<     <IconSlot value="0" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/gamedata/validatordata.xml /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/gamedata/validatordata.xml
+6081a6082,6085
+>   <CValidatorCombine id="TargetIsRootedOrSlowed">
+>     <CombineArray value="TargetIsSlowed" />
+>     <CombineArray value="TargetIsRooted" />
+>   </CValidatorCombine>
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamedatahelperlib.galaxy /snapshot-69823/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamedatahelperlib.galaxy
+197c197
+<         libGDHL_gv_heroZagaraMaxNydusWorms[init_i] = 10;
+---
+>         libGDHL_gv_heroZagaraMaxNydusWorms[init_i] = 4;
+diff -r --ignore-file-name-case /snapshot-69790/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-69823/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+5476c5476
+< Button/Tooltip/DryadChokingPollenTalent=Noxious Blossom deals <c val="#TooltipNumbers"><d ref="100*((Effect,DryadNoxiousBlossomChokingPollenMasteryDamage,Amount)-(Effect,DryadNoxiousBlossomDamage,Amount))/(Effect,DryadNoxiousBlossomDamage,Amount)"/>%</c> more damage to enemies afflicted by Nature's Toxin, increased to <c val="#TooltipNumbers">125%</c> against enemies with <c val="#TooltipNumbers">3</c> stacks.  
+---
+> Button/Tooltip/DryadChokingPollenTalent=Noxious Blossom deals <c val="#TooltipNumbers"><d ref="100*((Effect,DryadNoxiousBlossomChokingPollenMasteryDamage,Amount)-(Effect,DryadNoxiousBlossomDamage,Amount))/(Effect,DryadNoxiousBlossomDamage,Amount)"/>%</c> more damage to enemies afflicted by Nature's Toxin, increased to <c val="#TooltipNumbers">135%</c> against enemies with <c val="#TooltipNumbers">3</c> stacks.  
+5535c5535
+< Button/Tooltip/FalstadEpicMountTalent=Reduce the cooldown of Flight to <c val="#TooltipNumbers">30</c> seconds, reduce the cast time before flying to <c val="#TooltipNumbers">0.5</c> seconds, and increase the speed by <c val="#TooltipNumbers">50%</c>.
+---
+> Button/Tooltip/FalstadEpicMountTalent=Reduce the cooldown of Flight by <c val="#TooltipNumbers"><d ref="-Talent,FalstadMasteryFlightEpicMount,AbilityModificationArray[0].Modifications[0].Value"/></c> seconds, reduce the cast time before flying to <c val="#TooltipNumbers">0.5</c> seconds, and increase the speed by <c val="#TooltipNumbers">50%</c>.
+5860c5860
+< Button/Tooltip/LiLiHinderingWinds=Blinding Wind Slows enemy Hero Movement Speed by <c val="#TooltipNumbers"><d ref="-100*Behavior,LiLiBlindingWindHinderingWindsTalentSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> for <c val="#TooltipNumbers">2</c> seconds.
+---
+> Button/Tooltip/LiLiHinderingWinds=Blinding Wind Slows enemy Hero Movement Speed by <c val="#TooltipNumbers"><d ref="-100*Behavior,LiLiBlindingWindHinderingWindsTalentSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> for <c val="#TooltipNumbers"><d ref="Behavior,LiLiBlindingWindHinderingWindsTalentSlow,Duration"precision="1"/></c> seconds.
+6602c6602
+< Button/Tooltip/UtherHammerofJustice=Deal <c val="#TooltipNumbers"><d ref="Effect,HammerOfJusticeDamage,Amount"/></c> damage and Stun the target for <c val="#TooltipNumbers"><d ref="Behavior,HammerOfJustice,Duration" player="0" precision="2"/></c> seconds.
+---
+> Button/Tooltip/UtherHammerofJustice=Deal <c val="#TooltipNumbers"><d ref="Effect,HammerOfJusticeDamage,Amount"/></c> damage and Stun the target for <c val="#TooltipNumbers"><d ref="Behavior,HammerOfJustice,Duration" player="0" precision="2"/></c> second.
+6720c6720
+< Button/Tooltip/ZagaraNydusNetwork=Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates <c val="#TooltipNumbers"><d ref="Effect,ZagaraEnterNydusWormCreateHealer,RechargeVitalFraction*100*5"/>%</c> Health and Mana per second.<n/><n/>Stores up to <c val="#TooltipNumbers"><d ref="Abil,ZagaraSummonNydusWorm,Cost.Charge.CountMax"/></c> charges. Maximum of <c val="#TooltipNumbers">10 </c>Nydus Worms at a time.<n/><n/><c val="#AbilityPassive">Passive:</c> Creep spreads <c val="#TooltipNumbers">15%</c> farther. <n/><c val="#AbilityPassive">Passive:</c> While on Creep, each Basic Attack reduces all of Zagara's cooldowns by <c val="#TooltipNumbers"><d ref="-Effect,ZagaraNydusNetworkModifyCooldowns,Cost[0].CooldownTimeUse"precision="2"/></c> seconds.
+---
+> Button/Tooltip/ZagaraNydusNetwork=Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates <c val="#TooltipNumbers"><d ref="Effect,ZagaraEnterNydusWormCreateHealer,RechargeVitalFraction*100*5"/>%</c> Health and Mana per second.<n/><n/>Stores up to <c val="#TooltipNumbers"><d ref="Abil,ZagaraSummonNydusWorm,Cost.Charge.CountMax"/></c> charges. Maximum of <c val="#TooltipNumbers">4 </c>Nydus Worms at a time.<n/><n/><c val="#AbilityPassive">Passive:</c> Creep spreads <c val="#TooltipNumbers">15%</c> farther. <n/><c val="#AbilityPassive">Passive:</c> While on Creep, each Basic Attack reduces all of Zagara's cooldowns by <c val="#TooltipNumbers"><d ref="-Effect,ZagaraNydusNetworkModifyCooldowns,Cost[0].CooldownTimeUse"precision="2"/></c> seconds.
+16775d16774
+< Reward/Name/=Team Twelve 2018 Portrait
+17611a17611,17612
+> Reward/Name/ProgressionHeroPortraitCommon=Hero Portrait
+> Reward/Name/ProgressionHeroPortraitMaster=Master Portrait
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/ana.stormmod/base.stormdata/gamedata/anadata.xml /snapshot-69823/mods/heromods/ana.stormmod/base.stormdata/gamedata/anadata.xml
+1314a1315,1317
+>   <CBehaviorBuff id="AnaHealingDartPurifyingDartHeroHit">
+>     <Duration value="0.0625" />
+>   </CBehaviorBuff>
+1639a1643
+>     <EffectArray value="AnaHealingDartPurifyingDartHeroHitApplyBehavior" />
+1641,1643d1644
+<     <EffectArray value="AnaHealingDartSharpshooterImpactSet" />
+<     <EffectArray value="AnaHealingDartCreateHealer" />
+<     <EffectArray value="AnaHealingDartDummyDamage" />
+1646a1648,1651
+>     <EffectArray value="AnaHealingDartSharpshooterImpactSet" />
+>     <EffectArray value="AnaHealingDartCreateHealer" />
+>     <EffectArray value="AnaHealingDartDummyDamage" />
+>     <EffectArray value="AnaHealingDartPurifyingDartHeroHitRemoveBehavior" />
+1655c1660
+<     <MultiplicativeModifierArray index="PurifyingDarts" Validator="AnaHealingDartHasPurifyingDartTalentAndTargetIsRootedOrTargetIsSlowed" Modifier="0.2" Crit="1" />
+---
+>     <MultiplicativeModifierArray index="PurifyingDarts" Validator="AnaTargetHasAnaHealingDartPurifyingDartHeroHitBehavior" Modifier="0.2" Crit="1" />
+1749a1755,1763
+>   <CEffectApplyBehavior id="AnaHealingDartPurifyingDartHeroHitApplyBehavior">
+>     <ValidatorArray value="TargetIsRootedOrSlowed" />
+>     <Chance value="0" />
+>     <Behavior value="AnaHealingDartPurifyingDartHeroHit" />
+>   </CEffectApplyBehavior>
+>   <CEffectRemoveBehavior id="AnaHealingDartPurifyingDartHeroHitRemoveBehavior">
+>     <Chance value="0" />
+>     <BehaviorLink value="AnaHealingDartPurifyingDartHeroHit" />
+>   </CEffectRemoveBehavior>
+4270a4285,4298
+>       <Modifications>
+>         <Type value="FlatModification" />
+>         <Catalog value="Effect" />
+>         <Entry value="AnaHealingDartPurifyingDartHeroHitApplyBehavior" />
+>         <Field value="Chance" />
+>         <Value value="1.000000" />
+>       </Modifications>
+>       <Modifications>
+>         <Type value="FlatModification" />
+>         <Catalog value="Effect" />
+>         <Entry value="AnaHealingDartPurifyingDartHeroHitRemoveBehavior" />
+>         <Field value="Chance" />
+>         <Value value="1.000000" />
+>       </Modifications>
+4921a4950,4953
+>   </CValidatorUnitCompareBehaviorCount>
+>   <CValidatorUnitCompareBehaviorCount id="AnaTargetHasAnaHealingDartPurifyingDartHeroHitBehavior">
+>     <Compare value="GT" />
+>     <Behavior value="AnaHealingDartPurifyingDartHeroHit" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakadata.xml /snapshot-69823/mods/heromods/dehaka.stormmod/base.stormdata/gamedata/dehakadata.xml
+75c75
+<       <Cooldown TimeUse="60" />
+---
+>       <Cooldown TimeUse="75" />
+3176c3176
+<         <Value value="-25.000000" />
+---
+>         <Value value="-35.000000" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatdata.xml /snapshot-69823/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatdata.xml
+6,7c6,7
+<       <Vital index="Energy" value="50" />
+<       <Cooldown TimeUse="10" />
+---
+>       <Vital index="Energy" value="45" />
+>       <Cooldown TimeUse="9" />
+1176c1176
+<       <UnifiedMoveSpeedFactor value="-0.4" />
+---
+>       <UnifiedMoveSpeedFactor value="-0.5" />
+1403c1403
+<       <AllArmorBonus value="25" />
+---
+>       <AllArmorBonus value="35" />
+2042c2042
+<     <Amount value="18" />
+---
+>     <Amount value="16" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/kelthuzad.stormmod/base.stormdata/gamedata/kelthuzad.xml /snapshot-69823/mods/heromods/kelthuzad.stormmod/base.stormdata/gamedata/kelthuzad.xml
+166,167c166,167
+<       <Vital index="Energy" value="60" />
+<       <Cooldown TimeUse="70" />
+---
+>       <Vital index="Energy" value="50" />
+>       <Cooldown TimeUse="60" />
+1590c1590
+<     <Duration value="4.5" />
+---
+>     <Duration value="4.75" />
+1731c1731
+<     <Duration value="1.5" />
+---
+>     <Duration value="1.75" />
+1878c1878
+<       <AllArmorBonus value="-15" />
+---
+>       <AllArmorBonus value="-10" />
+2908c2908
+<     <MultiplicativeModifierArray index="IceColdDamageBonus" Validator="KelThuzadHasIceColdTalent" Modifier="2.5" />
+---
+>     <MultiplicativeModifierArray index="IceColdDamageBonus" Validator="KelThuzadHasIceColdTalent" Modifier="3" />
+4477c4477
+<         <Value value="-0.100000" />
+---
+>         <Value value="-0.150000" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/lucio.stormmod/base.stormdata/gamedata/luciodata.xml /snapshot-69823/mods/heromods/lucio.stormmod/base.stormdata/gamedata/luciodata.xml
+57,58c57,58
+<       <Vital index="Energy" value="100" />
+<       <Cooldown TimeUse="15" />
+---
+>       <Vital index="Energy" value="90" />
+>       <Cooldown TimeUse="13" />
+1165c1165
+<       <UnifiedMoveSpeedFactor value="0.15" />
+---
+>       <UnifiedMoveSpeedFactor value="0.2" />
+1497c1497,1499
+<     <ArmorModification AllArmorBonus="25" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="25" />
+>     </ArmorModification>
+1955c1957
+<     <EffectArray Operation="Set" Reference="Behavior,LucioCrossfadeSpeedBoost,Modification.UnifiedMoveSpeedFactor" Value="0.15" />
+---
+>     <EffectArray Operation="Set" Reference="Behavior,LucioCrossfadeSpeedBoost,Modification.UnifiedMoveSpeedFactor" Value="0.2" />
+2566,2569c2568,2570
+<     <TalentTreeArray Talent="LucioCrossfadeSpeedBoostWeMoveTogether" Tier="1" Column="1" />
+<     <TalentTreeArray Talent="LucioAmpItUpMaximumTempoQuest" Tier="1" Column="2" />
+<     <TalentTreeArray Talent="LucioWallRideAccelerando" Tier="1" Column="3" />
+<     <TalentTreeArray Talent="LucioWallRideSlip" Tier="1" Column="4" />
+---
+>     <TalentTreeArray Talent="LucioAmpItUpMaximumTempoQuest" Tier="1" Column="1" />
+>     <TalentTreeArray Talent="LucioWallRideAccelerando" Tier="1" Column="2" />
+>     <TalentTreeArray Talent="LucioWallRideSlip" Tier="1" Column="3" />
+2789c2790
+<       <TalentsArray value="LucioCrossfadeSpeedBoostWeMoveTogether" />
+---
+>       <TalentsArray value="LucioWallRideSlip" />
+2816c2817
+<       <TalentsArray value="LucioCrossfadeSpeedBoostWeMoveTogether" />
+---
+>       <TalentsArray value="LucioWallRideAccelerando" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisdata.xml /snapshot-69823/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisdata.xml
+1555a1556,1558
+>       <AbilLinkDisableArray value="MapMechanicAbilityInstant" />
+>       <AbilLinkDisableArray value="MapMechanicAbilityTarget" />
+>       <AbilLinkDisableArray value="MapMechanicAbilityTarget2" />
+1878,1880c1881,1883
+<     <Amount value="72" />
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <Amount value="69" />
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+1990,1991c1993,1994
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+2034,2035c2037,2038
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+2178,2179c2181,2182
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+2241,2243c2244,2246
+<     <Amount value="85" />
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <Amount value="81" />
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+2411,2412c2414,2415
+<     <LeechFraction index="Life" value="1" />
+<     <LeechMultiplicativeModifierArray index="NonHero" Validator="TargetNotHero" Modifier="-0.85" />
+---
+>     <LeechFraction index="Life" value="0.75" />
+>     <LeechMultiplicativeModifierArray index="NonHero" Validator="TargetNotHero" Modifier="-0.871" />
+2446c2449
+<     <LeechFraction index="Life" value="1" />
+---
+>     <LeechFraction index="Life" value="0.75" />
+2533,2534c2536,2537
+<     <MultiplicativeModifierArray index="NightmareFuelSleep" Validator="MalGanisNightmareFuelSleepCombine" Modifier="1.25" Crit="1" />
+<     <MultiplicativeModifierArray index="FrenziedAssault" Validator="MalGanisHasVampiricTouchFrenziedAssaultActive" Modifier="0.1" />
+---
+>     <MultiplicativeModifierArray index="NightmareFuelSleep" Validator="MalGanisNightmareFuelSleepCombine" Modifier="1.5" Crit="1" />
+>     <MultiplicativeModifierArray index="FrenziedAssault" Validator="MalGanisHasVampiricTouchFrenziedAssaultActive" Modifier="0.15" />
+2536,2537c2539,2540
+<     <LeechFraction index="Life" value="0.15" />
+<     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.3" />
+---
+>     <LeechFraction index="Life" value="0.1" />
+>     <LeechFlatModifierArray index="IsHero" Validator="TargetIsHero" Modifier="0.35" />
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisvodata/malganisannouncervodata.xml /snapshot-69823/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisvodata/malganisannouncervodata.xml
+10c10
+<         <AttributeId value="AMAL"/>
+---
+>         <AttributeId value="AMAG"/>
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/malganis.stormmod/base.stormdata/libhmlg.galaxy /snapshot-69823/mods/heromods/malganis.stormmod/base.stormdata/libhmlg.galaxy
+36a37,39
+>         libHMLG_gv_heroMalGanisBlindasaBatForfeitedUnits[init_i] = UnitGroupEmpty();
+>     }
+>     for (init_i = 0; init_i <= libCore_gv_bALMaxPlayers; init_i += 1) {
+53a57,58
+>         TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn, true);
+>         TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff, true);
+73a79,80
+>         TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn, false);
+>         TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff, false);
+297a305,396
+> // Trigger: Hero - Mal'Ganis Blind as a Bat Unit Ownership Transfer On
+> //--------------------------------------------------------------------------------------------------
+> bool libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn_Func (bool testConds, bool runActions) {
+>     // Variable Declarations
+>     int lv_targetplayer;
+> 
+>     // Automatic Variable Declarations
+>     unitgroup auto7E29023C_g;
+>     int auto7E29023C_u;
+>     unit auto7E29023C_var;
+> 
+>     // Variable Initialization
+>     lv_targetplayer = UnitGetOwner(EventUnit());
+> 
+>     // Conditions
+>     if (testConds) {
+>         if (!((lv_targetplayer > 0))) {
+>             return false;
+>         }
+> 
+>         if (!((lv_targetplayer <= libCore_gv_bALMaxPlayers))) {
+>             return false;
+>         }
+>     }
+> 
+>     // Actions
+>     if (!runActions) {
+>         return true;
+>     }
+> 
+>     auto7E29023C_g = UnitGroup(null, lv_targetplayer, RegionEntireMap(), UnitFilter(0, 0, (1 << c_targetFilterSelf) | (1 << c_targetFilterHeroic) | (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32))), 0);
+>     auto7E29023C_u = UnitGroupCount(auto7E29023C_g, c_unitCountAll);
+>     for (;; auto7E29023C_u -= 1) {
+>         auto7E29023C_var = UnitGroupUnitFromEnd(auto7E29023C_g, auto7E29023C_u);
+>         if (auto7E29023C_var == null) { break; }
+>         UnitGroupAdd(libHMLG_gv_heroMalGanisBlindasaBatForfeitedUnits[lv_targetplayer], auto7E29023C_var);
+>         if ((libGame_gf_ComputerPlayerInTeam(libGame_gf_TeamNumberOfPlayer(lv_targetplayer)) == libCore_gv_cOMPUTER_TeamChaos)) {
+>             UnitSetOwner(auto7E29023C_var, libCore_gv_cOMPUTER_TeamChaos, true);
+>         }
+>         else {
+>             UnitSetOwner(auto7E29023C_var, libCore_gv_cOMPUTER_TeamOrder, true);
+>         }
+>     }
+>     return true;
+> }
+> 
+> //--------------------------------------------------------------------------------------------------
+> void libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn_Init () {
+>     libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn = TriggerCreate("libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn_Func");
+>     TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn, false);
+>     TriggerAddEventUnitBehaviorChange(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn, null, "MalGanisFelClawsBlindAsABatBehavior", c_unitBehaviorChangeActivate);
+> }
+> 
+> //--------------------------------------------------------------------------------------------------
+> // Trigger: Hero - Mal'Ganis Blind as a Bat Unit Ownership Transfer Off
+> //--------------------------------------------------------------------------------------------------
+> bool libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff_Func (bool testConds, bool runActions) {
+>     // Variable Declarations
+>     int lv_targetPlayer;
+> 
+>     // Automatic Variable Declarations
+>     unitgroup auto1A3818B8_g;
+>     int auto1A3818B8_u;
+>     unit auto1A3818B8_var;
+> 
+>     // Variable Initialization
+>     lv_targetPlayer = UnitGetOwner(EventUnit());
+> 
+>     // Actions
+>     if (!runActions) {
+>         return true;
+>     }
+> 
+>     auto1A3818B8_g = libHMLG_gv_heroMalGanisBlindasaBatForfeitedUnits[lv_targetPlayer];
+>     auto1A3818B8_u = UnitGroupCount(auto1A3818B8_g, c_unitCountAll);
+>     for (;; auto1A3818B8_u -= 1) {
+>         auto1A3818B8_var = UnitGroupUnitFromEnd(auto1A3818B8_g, auto1A3818B8_u);
+>         if (auto1A3818B8_var == null) { break; }
+>         UnitSetOwner(auto1A3818B8_var, lv_targetPlayer, true);
+>     }
+>     return true;
+> }
+> 
+> //--------------------------------------------------------------------------------------------------
+> void libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff_Init () {
+>     libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff = TriggerCreate("libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff_Func");
+>     TriggerEnable(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff, false);
+>     TriggerAddEventUnitBehaviorChange(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff, null, "MalGanisFelClawsBlindAsABatBehavior", c_unitBehaviorChangeDestroy);
+>     TriggerAddEventUnitBehaviorChange(libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff, null, "MalGanisFelClawsBlindAsABatBehavior", c_unitBehaviorChangeDeactivate);
+> }
+> 
+> //--------------------------------------------------------------------------------------------------
+715a815,816
+>     libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn_Init();
+>     libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff_Init();
+diff -r --ignore-file-name-case /snapshot-69790/mods/heromods/malganis.stormmod/base.stormdata/libhmlg_h.galaxy /snapshot-69823/mods/heromods/malganis.stormmod/base.stormdata/libhmlg_h.galaxy
+9a10
+> unitgroup[libCore_gv_bALMaxPlayers + 1] libHMLG_gv_heroMalGanisBlindasaBatForfeitedUnits;
+21a23,24
+> trigger libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOn;
+> trigger libHMLG_gt_HeroMalGanisBlindasaBatUnitOwnershipTransferOff;

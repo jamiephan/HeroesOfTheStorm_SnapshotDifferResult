@@ -1,0 +1,493 @@
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/buildid.txt /snapshot-68778/mods/core.stormmod/base.stormdata/buildid.txt
+1c1
+< B68669
+---
+> B68778
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/databuildid.txt /snapshot-68778/mods/core.stormmod/base.stormdata/databuildid.txt
+1c1
+< B68669
+---
+> B68778
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/depotcache/source_build.txt /snapshot-68778/mods/core.stormmod/base.stormdata/depotcache/source_build.txt
+1c1
+< B68565
+\ No newline at end of file
+---
+> B68686
+\ No newline at end of file
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/ui/layout/glue/questbranchdialog.stormlayout /snapshot-68778/mods/core.stormmod/base.stormdata/ui/layout/glue/questbranchdialog.stormlayout
+4312a4313,4324
+>         <Controller type="Text" frame="AcceptLabel" end="Pause">
+>           <Key type="Text" time="0" text="@UI/RecruitFriendDialog/Error" />
+>         </Controller>
+>       </Animation>
+>       <Animation name="ShowInQueueError">
+>         <Event event="InQueueError" frame="$parent" action="Reset, Play" />
+>         <Controller type="Visibility" end="Pause">
+>           <Key type="Bool" time="0" value="true" />
+>         </Controller>
+>         <Controller type="Text" frame="AcceptLabel" end="Pause">
+>           <Key type="Text" time="0" text="@UI/RestrictedStateSearching" />
+>         </Controller>
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/ui/layout/ui/commandbutton.stormlayout /snapshot-68778/mods/core.stormmod/base.stormdata/ui/layout/ui/commandbutton.stormlayout
+414a415,420
+>     <Frame type="ProgressBar" name="CooldownProgress">
+>       <Anchor side="Top" relative="$parent/NormalImage" pos="Min" offset="5" />
+>       <Anchor side="Left" relative="$parent/NormalImage" pos="Min" offset="5" />
+>       <Anchor side="Right" relative="$parent/NormalImage" pos="Max" offset="-5" />
+>       <Anchor side="Bottom" relative="$parent/NormalImage" pos="Max" offset="-5" />
+>     </Frame>
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/ui/layout/ui/commandpanel.stormlayout /snapshot-68778/mods/core.stormmod/base.stormdata/ui/layout/ui/commandpanel.stormlayout
+190c190,191
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+193,194c194,195
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+231c232,233
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+234,235c236,237
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+273c275,276
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+276,277c279,280
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+314c317,318
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+317,318c321,322
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+355c359,360
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+358,359c363,364
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/ui/layout/ui/controlgrouppanel.stormlayout /snapshot-68778/mods/core.stormmod/base.stormdata/ui/layout/ui/controlgrouppanel.stormlayout
+208c208,209
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+211,212c212,213
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+228c229,230
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+231,232c233,234
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+248c250,251
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+251,252c254,255
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+268c271,272
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+271,272c275,276
+<         <Height val="102" />
+<         <Width val="102" />
+---
+>         <Height val="120" />
+>         <Width val="120" />
+diff -r --ignore-file-name-case /snapshot-68669/mods/core.stormmod/base.stormdata/ui/layout/ui/gamebutton.stormlayout /snapshot-68778/mods/core.stormmod/base.stormdata/ui/layout/ui/gamebutton.stormlayout
+10,13c10,13
+<       <Anchor side="Top" relative="$parent" pos="Min" offset="10" />
+<       <Anchor side="Bottom" relative="$parent" pos="Max" offset="-10" />
+<       <Anchor side="Left" relative="$parent" pos="Min" offset="10" />
+<       <Anchor side="Right" relative="$parent" pos="Max" offset="-10" />
+---
+>       <Anchor side="Top" relative="$parent" pos="Min" offset="20" />
+>       <Anchor side="Bottom" relative="$parent" pos="Max" offset="-20" />
+>       <Anchor side="Left" relative="$parent" pos="Min" offset="20" />
+>       <Anchor side="Right" relative="$parent" pos="Max" offset="-20" />
+23,26c23,26
+<       <Anchor side="Top" relative="$parent/NormalImage" pos="Min" offset="10" />
+<       <Anchor side="Left" relative="$parent/NormalImage" pos="Min" offset="10" />
+<       <Anchor side="Right" relative="$parent/NormalImage" pos="Max" offset="-10" />
+<       <Anchor side="Bottom" relative="$parent/NormalImage" pos="Max" offset="-10" />
+---
+>       <Anchor side="Top" relative="$parent/NormalImage" pos="Min" offset="0" />
+>       <Anchor side="Left" relative="$parent/NormalImage" pos="Min" offset="0" />
+>       <Anchor side="Right" relative="$parent/NormalImage" pos="Max" offset="-0" />
+>       <Anchor side="Bottom" relative="$parent/NormalImage" pos="Max" offset="-0" />
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamelib.galaxy /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamelib.galaxy
+11278d11277
+<     libGame_gf_ScoreValuesReportIntegerValueAndLog(lp_player, "Healing", libGame_gv_scoreValues[lp_player].lv_healing);
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesdata.stormmod/base.stormdata/ui/layout/lili.stormlayout /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/ui/layout/lili.stormlayout
+1c1
+< ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+---
+> <?xml version="1.0" encoding="utf-8" standalone="yes"?>
+3,52c3,64
+<   <Frame type="SelectionUnitStatusPanel" name="LiLiCommandCardFrame">
+<     <Anchor side="Top" relative="$parent" pos="Min" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="165" />
+<     <Width val="826" />
+<     <SpecificUnit val="HeroLiLi" />
+<     <AcceptsMouse val="False" />
+<   </Frame>
+<   <Frame type="SelectionUnitStatusPanel" name="LiLiFastFeetButtonOverride">
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="100" />
+<     <Width val="100" />
+<     <SpecificUnit val="HeroLiLi" />
+<     <Frame type="UnitStatusFrame" name="UnitStatusFrame0">
+<       <Anchor relative="$parent" />
+<       <AcceptsMouse val="False" />
+<       <Frame type="UnitStatusBehaviorIcon" name="UnitStatusLiLiFastFeetIcon">
+<         <Anchor relative="$parent" />
+<         <Behavior val="LiLiFastFeetBoost" />
+<         <AcceptsMouse val="False" />
+<         <Frame type="BehaviorIcon" name="BehaviorIcon">
+<           <Anchor relative="$parent" />
+<           <Behavior val="LiLiFastFeetBoost" />
+<           <AcceptsMouse val="False" />
+<           <Frame type="ProgressBar" name="CooldownBar">
+<             <Anchor side="Top" relative="$parent" pos="Min" offset="-10" />
+<             <Anchor side="Left" relative="$parent" pos="Min" offset="-10" />
+<             <Height val="120" />
+<             <Width val="120" />
+<             <AcceptsMouse val="False" />
+<             <MinValue val="0" />
+<             <MaxValue val="2" />
+<             <Value val="0" />
+<             <Circular val="True" />
+<             <CircularStart val="0" />
+<             <CircularEndOffset val="360" />
+<             <FillInset val="0.0" />
+<             <Frame type="Frame" name="FillImageContainer">
+<               <Anchor relative="$parent" />
+<               <Frame type="Image" name="FillImage">
+<                 <Anchor relative="$parent" />
+<                 <SubpixelRendering val="True" />
+<                 <ColorAdjustMode val="Colorize" />
+<                 <AdjustmentColor val="FF0000" />
+<                 <RenderPriority val="510" />
+<                 <Texture val="@UI/Storm_UI_InGame_AbilityButton_Active_Add" />
+<                 <BlendMode val="Normal" />
+<                 <TextureType val="Circular" />
+<               </Frame>
+---
+>   
+>     <Frame type="SelectionUnitStatusPanel" name="LiLiCommandCardFrame">
+>         <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+>         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+>         <Height val="165"/>
+>         <Width val="826"/>
+>         <SpecificUnit val="HeroLiLi"/>
+>         <AcceptsMouse val="False"/>
+>     </Frame>
+> 
+>     <Frame type="SelectionUnitStatusPanel" name="LiLiFastFeetButtonOverride">
+>         <Anchor relative="$parent"/>
+>         <SpecificUnit val="HeroLiLi"/>
+>         
+>         <Frame type="UnitStatusFrame" name="UnitStatusFrame0">
+>             <Anchor relative="$parent"/>
+>             <AcceptsMouse val="False"/>
+> 
+>             <Frame type="UnitStatusBehaviorIcon" name="UnitStatusLiLiFastFeetIcon">
+>                 <Anchor relative="$parent"/>
+>                 <Behavior val="LiLiFastFeetBoost"/>
+>                 <AcceptsMouse val="False"/>
+> 
+>                 <Frame type="BehaviorIcon" name="BehaviorIcon">
+>                     <Anchor relative="$parent"/>
+>                     <Behavior val="LiLiFastFeetBoost"/>
+>                     <AcceptsMouse val="False"/>
+> 
+>                     <Frame type="ProgressBar" name="CooldownBar">
+>                         <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+>                         <Height val="120"/>
+>                         <Width val="120"/>
+>                         <AcceptsMouse val="False"/>
+> 
+>                         <MinValue val="0"/>
+>                         <MaxValue val="2"/>
+>                         <Value val="0"/>
+>                         <Circular val="True"/>
+>                         <CircularStart val="0"/>
+>                         <CircularEndOffset val="360"/>
+>                         <FillInset val="0.0"/>
+> 
+>                         <Frame type="Frame" name="FillImageContainer">
+>                             <Anchor relative="$parent"/>
+> 
+>                             <Frame type="Image" name="FillImage">
+>                                 <Anchor relative="$parent"/>
+>                                 <SubpixelRendering val="True"/>
+>                                 <ColorAdjustMode val="Colorize"/>
+>                                 <AdjustmentColor val="FF0000"/>
+>                                 <RenderPriority val="510"/>
+> 
+>                                 <Texture val="@UI/Storm_UI_InGame_AbilityButton_Active_Add"/>
+>                                 <BlendMode val="Normal"/>
+>                                 <TextureType val="Circular"/>
+>                             </Frame>
+>                         </Frame>
+>                     </Frame>
+>                 </Frame>
+54d65
+<           </Frame>
+56d66
+<       </Frame>
+58,59c68
+<   </Frame>
+< </Desc>
+\ No newline at end of file
+---
+> </Desc>
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesdata.stormmod/base.stormdata/ui/layout/muradin.stormlayout /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/ui/layout/muradin.stormlayout
+5,8c5
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+<         <Height val="112"/>
+<         <Width val="112"/>
+---
+>         <Anchor relative="$parent"/>
+9a7
+> 
+24,25c22,27
+<                         <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+<                         <Anchor side="Left" relative="$parent" pos="Min" offset="-10"/>
+---
+>                         <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+>                         <Height val="125"/>
+>                         <Width val="120"/>
+36,37d37
+<                         <Height val="125"/>
+<                         <Width val="120"/>
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesdata.stormmod/base.stormdata/ui/layout/sonya.stormlayout /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/ui/layout/sonya.stormlayout
+14,17c14
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+<         <Height val="100"/>
+<         <Width val="100"/>
+---
+>         <Anchor relative="$parent"/>
+35,36c32,35
+<                         <Anchor side="Top" relative="$parent" pos="Min" offset="-10"/>
+<                         <Anchor side="Left" relative="$parent" pos="Min" offset="-10"/>
+---
+>                         <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-68778/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+12655c12655
+< EmoticonPack/Name/CatSpooky18Pack=Cursed Cats Pack
+---
+> EmoticonPack/Name/CatSpooky18Pack=Cursed Cats Emoji Pack
+12700c12700
+< EmoticonPack/Name/EyeSpooky18Pack=Evil Eyes Pack
+---
+> EmoticonPack/Name/EyeSpooky18Pack=Evil Eyes Emoji Pack
+12716c12716
+< EmoticonPack/Name/GhostSpooky18Pack=Ghastly Ghosts Pack
+---
+> EmoticonPack/Name/GhostSpooky18Pack=Ghastly Ghosts Emoji Pack
+12844c12844
+< EmoticonPack/Name/SillySpooky18Pack=Silly & Spooky Pack
+---
+> EmoticonPack/Name/SillySpooky18Pack=Silly & Spooky Emoji Pack
+21932,21935c21932,21935
+< Spray/Name/SprayStaticSpooky18RewardAlexstrasza=Spectral Wyrm Alexstrasza
+< Spray/Name/SprayStaticSpooky18RewardMaiev=Spider Warden Maiev
+< Spray/Name/SprayStaticSpooky18RewardWhitemane=Cursed Hollow Whitemane
+< Spray/Name/SprayStaticSpooky18RewardZarya=Phantom Knight Zarya
+---
+> Spray/Name/SprayStaticSpooky18RewardAlexstrasza=Sign of the Spectral Wyrm
+> Spray/Name/SprayStaticSpooky18RewardMaiev=Sign of the Spider Warden
+> Spray/Name/SprayStaticSpooky18RewardWhitemane=Sign of the Cursed Witch
+> Spray/Name/SprayStaticSpooky18RewardZarya=Sign of the Phantom Knight
+diff -r --ignore-file-name-case /snapshot-68669/mods/heroesmapmods/battlegroundmapmods/hanamura.stormmod/base.stormdata/libnpld.galaxy /snapshot-68778/mods/heroesmapmods/battlegroundmapmods/hanamura.stormmod/base.stormdata/libnpld.galaxy
+152c152,153
+<         if ((UnitGetPosition(libNPLD_gv_neutralPayload.lv_unit) == libNPLD_gv_neutralPayload.lv_pathWaypoints[lp_team][lv_pathIndex_Team][libNPLD_gv_neutralPayload.lv_pathWaypoints_DestinationIndex[lp_team][lv_pathIndex_Team]])) {
+---
+>         if ((libNtve_gf_UnitInRegion(libNPLD_gv_neutralPayload.lv_unit, RegionCircle(libNPLD_gv_neutralPayload.lv_pathWaypoints[lp_team][lv_pathIndex_Team][libNPLD_gv_neutralPayload.lv_pathWaypoints_DestinationIndex[lp_team][lv_pathIndex_Team]], 0.1)) == true)) {
+>             libStEx_gf_MoveUnit(libNPLD_gv_neutralPayload.lv_unit, libNPLD_gv_neutralPayload.lv_pathWaypoints[lp_team][lv_pathIndex_Team][libNPLD_gv_neutralPayload.lv_pathWaypoints_DestinationIndex[lp_team][lv_pathIndex_Team]], true);
+diff -r --ignore-file-name-case /snapshot-68669/mods/heromods/amazon.stormmod/base.stormdata/ui/layout/amazon.stormlayout /snapshot-68778/mods/heromods/amazon.stormmod/base.stormdata/ui/layout/amazon.stormlayout
+15,18c15
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+<         <Height val="96"/>
+<         <Width val="96"/>
+---
+>         <Anchor relative="$parent"/>
+105,106c102,105
+<                 <Anchor side="Top" relative="$parent" pos="Min" offset="6"/>
+<                 <Anchor side="Left" relative="$parent" pos="Min" offset="10"/>
+---
+>                 <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+>                 <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+>                 <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+>                 <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+diff -r --ignore-file-name-case /snapshot-68669/mods/heromods/dva.stormmod/base.stormdata/ui/layout/dva.stormlayout /snapshot-68778/mods/heromods/dva.stormmod/base.stormdata/ui/layout/dva.stormlayout
+659,662c659
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="96" />
+<     <Width val="96" />
+---
+>     <Anchor relative="$parent" />
+683,684c680,683
+<         <Anchor side="Top" relative="$parent" pos="Min" offset="10" />
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="16" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="1" />
+>         <Anchor side="Left" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="1" />
+>         <Anchor side="Right" relative="$parent" pos="Mid" offset="0" />
+diff -r --ignore-file-name-case /snapshot-68669/mods/heromods/genji.stormmod/base.stormdata/ui/layout/genji.stormlayout /snapshot-68778/mods/heromods/genji.stormmod/base.stormdata/ui/layout/genji.stormlayout
+145,148c145
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="112" />
+<     <Width val="112" />
+---
+>     <Anchor relative="$parent" />
+153,154c150,155
+<         <Anchor side="Top" relative="$parent" pos="Min" offset="-5" />
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="-4" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Left" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Right" relative="$parent" pos="Mid" offset="0" />
+>         <Width val="112" />
+>         <Height val="132" />
+175,178c176
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="112" />
+<     <Width val="112" />
+---
+>     <Anchor relative="$parent" />
+183,184c181,186
+<         <Anchor side="Top" relative="$parent" pos="Min" offset="-5" />
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="-4" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Left" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Right" relative="$parent" pos="Mid" offset="0" />
+>         <Width val="112" />
+>         <Height val="132" />
+205,208c207
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="112" />
+<     <Width val="112" />
+---
+>     <Anchor relative="$parent" />
+221,222c220,225
+<             <Anchor side="Top" relative="$parent" pos="Min" offset="0" />
+<             <Anchor side="Left" relative="$parent" pos="Min" offset="-10" />
+---
+>             <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>             <Anchor side="Left" relative="$parent" pos="Mid" offset="0" />
+>             <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+>             <Anchor side="Right" relative="$parent" pos="Mid" offset="0" />
+>             <Height val="120" />
+>             <Width val="120" />
+231,232d233
+<             <Height val="120" />
+<             <Width val="120" />
+diff -r --ignore-file-name-case /snapshot-68669/mods/heromods/malthael.stormmod/base.stormdata/ui/layout/malthael.stormlayout /snapshot-68778/mods/heromods/malthael.stormmod/base.stormdata/ui/layout/malthael.stormlayout
+5,10c5
+<         <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+<         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+<         <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+<         <Height val="80"/>
+<         <Width val="80"/>
+---
+>         <Anchor relative="$parent"/>
+28,31c23,28
+<                         <Anchor side="Top" relative="$parent" pos="Min" offset="0"/>
+<                         <Anchor side="Left" relative="$parent" pos="Min" offset="0"/>
+<                         <Anchor side="Bottom" relative="$parent" pos="Max" offset="0"/>
+<                         <Anchor side="Right" relative="$parent" pos="Max" offset="0"/>
+---
+>                         <Anchor side="Top" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Left" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0"/>
+>                         <Anchor side="Right" relative="$parent" pos="Mid" offset="0"/>
+>                         <Height val="102"/>
+>                         <Width val="102"/>
+41,42d37
+<                         <Height val="102"/>
+<                         <Width val="102"/>
+diff -r --ignore-file-name-case /snapshot-68669/mods/heromods/tracer.stormmod/base.stormdata/ui/layout/tracer.stormlayout /snapshot-68778/mods/heromods/tracer.stormmod/base.stormdata/ui/layout/tracer.stormlayout
+1057,1060c1057
+<     <Anchor side="Bottom" relative="$parent" pos="Max" offset="0" />
+<     <Anchor side="Left" relative="$parent" pos="Min" offset="0" />
+<     <Height val="96" />
+<     <Width val="96" />
+---
+>     <Anchor relative="$parent" />
+1066,1067c1063,1066
+<         <Anchor side="Top" relative="$parent" pos="Min" offset="10" />
+<         <Anchor side="Left" relative="$parent" pos="Min" offset="16" />
+---
+>         <Anchor side="Top" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Left" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Bottom" relative="$parent" pos="Mid" offset="0" />
+>         <Anchor side="Right" relative="$parent" pos="Mid" offset="0" />

@@ -1,0 +1,26 @@
+diff -r --ignore-file-name-case /snapshot-69350/mods/core.stormmod/base.stormdata/buildid.txt /snapshot-69790/mods/core.stormmod/base.stormdata/buildid.txt
+1c1
+< B69350
+---
+> B69790
+diff -r --ignore-file-name-case /snapshot-69350/mods/core.stormmod/base.stormdata/databuildid.txt /snapshot-69790/mods/core.stormmod/base.stormdata/databuildid.txt
+1c1
+< B69350
+---
+> B69790
+diff -r --ignore-file-name-case /snapshot-69350/mods/core.stormmod/base.stormdata/depotcache/source_build.txt /snapshot-69790/mods/core.stormmod/base.stormdata/depotcache/source_build.txt
+1c1
+< B69320
+\ No newline at end of file
+---
+> B69713
+\ No newline at end of file
+diff -r --ignore-file-name-case /snapshot-69350/mods/heromods/dva.stormmod/base.stormdata/gamedata/dvadata.xml /snapshot-69790/mods/heromods/dva.stormmod/base.stormdata/gamedata/dvadata.xml
+80c80,82
+<     <CmdButtonArray index="Load" DefaultButtonFace="DVaMechLoadPilot" />
+---
+>     <CmdButtonArray index="Load" DefaultButtonFace="DVaMechLoadPilot">
+>       <Flags index="IgnoreUser" value="1" />
+>     </CmdButtonArray>
+81a84
+>       <Flags index="IgnoreUser" value="1" />

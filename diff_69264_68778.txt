@@ -1,0 +1,612 @@
+diff -r --ignore-file-name-case /snapshot-68778/mods/core.stormmod/base.stormdata/buildid.txt /snapshot-69264/mods/core.stormmod/base.stormdata/buildid.txt
+1c1
+< B68778
+---
+> B69264
+diff -r --ignore-file-name-case /snapshot-68778/mods/core.stormmod/base.stormdata/databuildid.txt /snapshot-69264/mods/core.stormmod/base.stormdata/databuildid.txt
+1c1
+< B68778
+---
+> B69264
+diff -r --ignore-file-name-case /snapshot-68778/mods/core.stormmod/base.stormdata/depotcache/source_build.txt /snapshot-69264/mods/core.stormmod/base.stormdata/depotcache/source_build.txt
+1c1
+< B68686
+\ No newline at end of file
+---
+> B68863
+\ No newline at end of file
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml
+1651c1651
+<     <Amount value="192" />
+---
+>     <Amount value="184" />
+1724c1724
+<     <Value value="2" />
+---
+>     <Value value="3" />
+2095c2095
+<     <Value value="2" />
+---
+>     <Value value="3" />
+2559c2559
+<     <Amount value="192" />
+---
+>     <Amount value="184" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/brightwingdata/brightwingdata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/brightwingdata/brightwingdata.xml
+23c23
+<       <Cooldown TimeUse="120" />
+---
+>       <Cooldown TimeUse="100" />
+79c79
+<     <TargetFilters value="Heroic;Self,Player,Enemy" />
+---
+>     <TargetFilters value="Heroic;Self,Player,Enemy,ImmuneToFriendlyAbilities" />
+1621c1621
+<     <RechargeVitalRate value="200" />
+---
+>     <RechargeVitalRate value="250" />
+2571c2571
+<     <RechargeVitalRate value="100" />
+---
+>     <RechargeVitalRate value="105" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/diablodata/diablodata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/diablodata/diablodata.xml
+104c104
+<       <Cooldown TimeUse="70" />
+---
+>       <Cooldown TimeUse="90" />
+1001c1001,1003
+<     <ArmorModification AllArmorBonus="40" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="40" />
+>     </ArmorModification>
+1107,1110d1108
+<     <DisplayDuration index="Self" value="1" />
+<     <DisplayDuration index="Ally" value="1" />
+<     <DisplayDuration index="Neutral" value="1" />
+<     <DisplayDuration index="Enemy" value="1" />
+1343c1341,1343
+<     <ArmorModification AllArmorBonus="20" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="20" />
+>     </ArmorModification>
+2728,2730c2728,2730
+<     <Cost Abil="DiabloShadowCharge,Execute" CooldownOperation="Add" CooldownTimeUse="-0.75" />
+<     <Cost Abil="DiabloFireStomp,Execute" CooldownOperation="Add" CooldownTimeUse="-0.75" />
+<     <Cost Abil="DiabloOverpower,Execute" ChargeTimeUse="-0.75" CooldownOperation="Add" />
+---
+>     <Cost Abil="DiabloShadowCharge,Execute" CooldownOperation="Add" CooldownTimeUse="-1" />
+>     <Cost Abil="DiabloFireStomp,Execute" CooldownOperation="Add" CooldownTimeUse="-1" />
+>     <Cost Abil="DiabloOverpower,Execute" ChargeTimeUse="-1" CooldownOperation="Add" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml
+158c158
+<     <MaxAccumulation value="1.5" />
+---
+>     <MaxAccumulation value="1" />
+160c160
+<     <Scale value="0.15" />
+---
+>     <Scale value="0.1" />
+934d933
+<     <MaxStackCount value="2" />
+1380c1379
+<     <Value value="0.125" />
+---
+>     <Value value="0.1875" />
+1495c1494
+<     <Cost Abil="KerriganRavage,Execute" ChargeTimeUse="-4" CooldownOperation="Add" />
+---
+>     <Cost Abil="KerriganRavage,Execute" ChargeTimeUse="-6" CooldownOperation="Add" />
+1579c1578
+<     <LeechFraction index="Shields" value="0.15" />
+---
+>     <LeechFraction index="Shields" value="0.1" />
+1583c1582
+<     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.15" />
+---
+>     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.1" />
+1586c1585
+<     <LeechFraction index="Shields" value="0.15" />
+---
+>     <LeechFraction index="Shields" value="0.1" />
+1589c1588
+<     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.15" />
+---
+>     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.1" />
+1712c1711
+<     <Amount value="75" />
+---
+>     <Amount value="70" />
+2062c2061
+<     <LeechFraction index="Shields" value="0.15" />
+---
+>     <LeechFraction index="Shields" value="0.1" />
+2065c2064
+<     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.15" />
+---
+>     <LeechFlatModifierArray index="VolatilePower" Validator="KerriganAssimilationHasVolatilePowerTalent" Modifier="0.1" />
+3071,3073c3070,3072
+<     <LifeStart value="1680" />
+<     <LifeMax value="1680" />
+<     <LifeRegenRate value="3.5" />
+---
+>     <LifeStart value="1764" />
+>     <LifeMax value="1764" />
+>     <LifeRegenRate value="3.6757" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/lilidata/lilidata.xml
+53c53
+<       <Cooldown TimeUse="12" />
+---
+>       <Cooldown TimeUse="10" />
+1412c1412
+<     <RechargeVitalRate value="70" />
+---
+>     <RechargeVitalRate value="66" />
+2877,2879c2877,2879
+<     <LifeStart value="1475" />
+<     <LifeMax value="1475" />
+<     <LifeRegenRate value="3.0703" />
+---
+>     <LifeStart value="1534" />
+>     <LifeMax value="1534" />
+>     <LifeRegenRate value="3.1953" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/medicdata/medicdata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/medicdata/medicdata.xml
+58c58
+<         <TimeUse value="12" />
+---
+>         <TimeUse value="10" />
+1182c1182
+<     <RemoveValidatorArray value="TargetIsStunned" />
+---
+>     <RemoveValidatorArray value="TargetIsRootedOrStunned" />
+1187c1187,1189
+<     <ArmorModification AllArmorBonus="25" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="25" />
+>     </ArmorModification>
+1192c1194,1196
+<     <ArmorModification AllArmorBonus="30" StackCount="1" />
+---
+>     <ArmorModification StackCount="1">
+>       <AllArmorBonus value="30" />
+>     </ArmorModification>
+1307c1311,1313
+<     <ArmorModification AllArmorBonus="25" StackCount="2" />
+---
+>     <ArmorModification StackCount="2">
+>       <AllArmorBonus value="30" />
+>     </ArmorModification>
+1482a1489,1490
+>       <Handled value="MedicMedivacDropshipDeathDelayPersistent" />
+>       <Priority value="1" />
+1485d1492
+<       <Handled value="MedicMedivacDropshipDeathDelayPersistent" />
+1487d1493
+<       <Priority value="1" />
+1769c1775
+<     <Cost Abil="MedicSafeguard,Execute" ChargeTimeUse="-4" CooldownOperation="Add" />
+---
+>     <Cost Abil="MedicSafeguard,Execute" ChargeTimeUse="-5" CooldownOperation="Add" />
+1780c1786
+<     <ValidatorArray value="TargetIsStunned" />
+---
+>     <ValidatorArray value="TargetIsRootedOrStunned" />
+1980c1986
+<     <ValidatorArray index="0" value="TargetIsStunned" />
+---
+>     <ValidatorArray index="0" value="TargetIsRootedOrStunned" />
+2174c2180
+<     <Amount value="20" />
+---
+>     <Amount value="24" />
+2661c2667
+<     <Amount value="198" />
+---
+>     <Amount value="208" />
+3440,3442c3446,3448
+<     <LifeStart value="1472" />
+<     <LifeMax value="1472" />
+<     <LifeRegenRate value="3.0703" />
+---
+>     <LifeStart value="1545" />
+>     <LifeMax value="1545" />
+>     <LifeRegenRate value="3.2187" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxardata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/rexxardata/rexxardata.xml
+3639c3639
+<         <Value value="1.000000" />
+---
+>         <Value value="1.500000" />
+3817c3817
+<         <Value value="2.000000" />
+---
+>         <Value value="1.000000" />
+3824c3824
+<         <Value value="2.000000" />
+---
+>         <Value value="1.000000" />
+3831c3831
+<         <Value value="2.000000" />
+---
+>         <Value value="1.000000" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml
+82c82
+<       <Cooldown TimeUse="80" />
+---
+>       <Cooldown TimeUse="90" />
+678c678
+<       <UnifiedMoveSpeedFactor value="0.1" />
+---
+>       <UnifiedMoveSpeedFactor value="0.05" />
+732c732
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+735c735
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+738c738
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+741c741
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+744c744
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+747c747
+<         <ArmorMitigationTable index="Ability" value="15" />
+---
+>         <ArmorMitigationTable index="Ability" value="10" />
+2328c2328
+<         <Value value="4.000000" />
+---
+>         <Value value="3.000000" />
+2335c2335
+<         <Value value="4.000000" />
+---
+>         <Value value="3.000000" />
+2342c2342
+<         <Value value="4.000000" />
+---
+>         <Value value="3.000000" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamedatahelperlib.galaxy /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/triggerlibs/gamedatahelperlib.galaxy
+16288a16289,16290
+>     TriggerAddEventUnitBehaviorChangeFromCategory(libGDHL_gt_HeroMedicSafeguardVanadiumPlatingTalentProc, null, c_behaviorCategoryDebuffRoot, c_unitBehaviorChangeCreate);
+>     TriggerAddEventUnitBehaviorChangeFromCategory(libGDHL_gt_HeroMedicSafeguardVanadiumPlatingTalentProc, null, c_behaviorCategoryDebuffRoot, c_unitBehaviorChangeRefresh);
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/base.stormdata/triggerlibs/mapmechanicslib.galaxy /snapshot-69264/mods/heroesdata.stormmod/base.stormdata/triggerlibs/mapmechanicslib.galaxy
+654a655
+>         libMapM_gv_jungleCreepCamps[lp_camp].lv_stateIsEnabled = false;
+1016a1018,1021
+>     if ((libMapM_gv_jungleCreepCamps[lp_camp].lv_stateIsEnabled == false)) {
+>         return ;
+>     }
+> 
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-69264/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+660c660
+< Abil/SafeguardCooldownOverrideText=12 seconds
+---
+> Abil/SafeguardCooldownOverrideText=10 seconds
+4284c4284
+< Button/SimpleDisplayText/MedicVanadiumPlating=Stuns increase Safeguard Armor, duration
+---
+> Button/SimpleDisplayText/MedicVanadiumPlating=Roots, Stuns increase Safeguard Armor, duration
+5757c5757
+< Button/Tooltip/KerriganAssimilation=Gain <c val="#TooltipNumbers">15%</c> of damage dealt from Basic Attacks and Abilities as Shields for <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationShield,Duration" player="0"/></c> seconds. Shield amount gained doubled against Heroes.<n/><n/><c val="ffff8a">Current maximum: <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationShield,DamageResponse.ModifyLimit"/></c></c>
+---
+> Button/Tooltip/KerriganAssimilation=Gain <c val="#TooltipNumbers"><d ref="Effect,KerriganAbilityDamageParent,LeechFraction[Shields]*100"/>%</c> of damage dealt from Basic Attacks and Abilities as Shields for <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationShield,Duration" player="0"/></c> seconds. Shield amount gained doubled against Heroes.<n/><n/><c val="ffff8a">Current maximum: <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationShield,DamageResponse.ModifyLimit"/></c></c>
+5760c5760
+< Button/Tooltip/KerriganAssimilationFuryOfTheSwarmTalent=Gain <c val="#TooltipNumbers"><d ref="Effect,KerriganWeaponDamageParent,LeechFlatModifierArray[FuryOfTheSwarm].Modifier*100"/>%</c> more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationFuryOfTheSwarmCarryBehavior,MaxStackCount"/></c> Basic Attacks within <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationFuryOfTheSwarmCarryBehavior,Duration"/></c> seconds splash for <c val="#TooltipNumbers"><d ref="Effect,KerriganWeaponFuryOfTheSwarmDamage,Amount/Effect,KerriganWeaponDamage,Amount*100"/>%</c> damage around the target.
+---
+> Button/Tooltip/KerriganAssimilationFuryOfTheSwarmTalent=Gain <c val="#TooltipNumbers"><d ref="Effect,KerriganWeaponDamageParent,LeechFlatModifierArray[FuryOfTheSwarm].Modifier*100"/>%</c> more Assimilation Shields from Basic Attacks. After casting Ravage, Kerrigan's next Basic Attack within <c val="#TooltipNumbers"><d ref="Behavior,KerriganAssimilationFuryOfTheSwarmCarryBehavior,Duration"/></c> seconds splashes for <c val="#TooltipNumbers"><d ref="Effect,KerriganWeaponFuryOfTheSwarmDamage,Amount/Effect,KerriganWeaponDamage,Amount*100"/>%</c> damage around the target.
+5771c5771
+< Button/Tooltip/KerriganMaelstromOmegastormTalent=Maelstrom's duration is increased by <c val="#TooltipNumbers"><d ref="Effect,KerriganMaelstromOmegastormIncreaseMaelstromDuration,Value" precision="3"/></c> seconds every time it damages a Hero.
+---
+> Button/Tooltip/KerriganMaelstromOmegastormTalent=Maelstrom's duration is increased by <c val="#TooltipNumbers"><d ref="Effect,KerriganMaelstromOmegastormIncreaseMaelstromDuration,Value" precision="4"/></c> seconds every time it damages a Hero.
+5978c5978
+< Button/Tooltip/MedicVanadiumPlating=While an ally affected by Safeguard is Stunned, Safeguard grants an additional <c val="#TooltipNumbers"><d ref="Behavior,MedicSafeguardVanadiumPlatingTalentBuff,ArmorModification.AllArmorBonus"/></c> Armor and its duration is paused.
+---
+> Button/Tooltip/MedicVanadiumPlating=While an ally affected by Safeguard is Rooted or Stunned, Safeguard grants an additional <c val="#TooltipNumbers"><d ref="Behavior,MedicSafeguardVanadiumPlatingTalentBuff,ArmorModification.AllArmorBonus"/></c> Armor and its duration is paused.
+6221c6221
+< Button/Tooltip/RexxarCripplingTalonsTalent=Increases Spirit Swoop's slow amount to <c val="#TooltipNumbers"><d ref="-100*(Behavior,RexxarSpiritSwoopSlow,Modification.UnifiedMoveSpeedFactor+Talent,RexxarSpiritSwoopCripplingTalons,AbilityModificationArray[0].Modifications[0].Value)"player="0"/>%</c> and its duration to<c val="#TooltipNumbers"> <d ref="Behavior,RexxarSpiritSwoopSlow,Duration+Talent,RexxarSpiritSwoopCripplingTalons,AbilityModificationArray[0].Modifications[1].Value"player="0"/></c> seconds.
+---
+> Button/Tooltip/RexxarCripplingTalonsTalent=Increases Spirit Swoop's slow amount to <c val="#TooltipNumbers"><d ref="-100*(Behavior,RexxarSpiritSwoopSlow,Modification.UnifiedMoveSpeedFactor+Talent,RexxarSpiritSwoopCripplingTalons,AbilityModificationArray[0].Modifications[0].Value)"player="0"/>%</c> and its duration to<c val="#TooltipNumbers"> <d ref="Behavior,RexxarSpiritSwoopSlow,Duration+Talent,RexxarSpiritSwoopCripplingTalons,AbilityModificationArray[0].Modifications[1].Value"player="0"Precision="2"/></c> seconds.
+6562c6562
+< Button/Tooltip/TyrandeLightOfElune=Heal an ally for <c val="#TooltipNumbers"><d ref="Effect,LightofEluneHealTarget,RechargeVitalRate"/></c>. Light of Elune's cooldown is reduced by <c val="#TooltipNumbers"><d ref="-Effect,TyrandeLightofEluneModifyCooldown,Cost[0].ChargeTimeUse"precision="2"/></c> seconds every time Tyrande damages an enemy.<n/><n/>Stores up to <c val="#TooltipNumbers"><d ref="Abil,TyrandeLightofElune,Cost[0].Charge.CountMax"/></c> charges. Cooldown replenishes all charges at the same time.
+---
+> Button/Tooltip/TyrandeLightOfElune=Heal an ally Hero for <c val="#TooltipNumbers"><d ref="Effect,LightofEluneHealTarget,RechargeVitalRate"/></c>. Light of Elune's cooldown is reduced by <c val="#TooltipNumbers"><d ref="-Effect,TyrandeLightofEluneModifyCooldown,Cost[0].ChargeTimeUse"precision="2"/></c> seconds every time Tyrande damages an enemy.<n/><n/>Stores up to <c val="#TooltipNumbers"><d ref="Abil,TyrandeLightofElune,Cost[0].Charge.CountMax"/></c> charges. Cooldown replenishes all charges at the same time.
+diff -r --ignore-file-name-case /snapshot-68778/mods/heroesmapmods/battlegroundmapmods/hanamura.stormmod/base.stormdata/libmhmu.galaxy /snapshot-69264/mods/heroesmapmods/battlegroundmapmods/hanamura.stormmod/base.stormdata/libmhmu.galaxy
+1290a1291,1301
+>     // Variable Declarations
+>     int lv_campIndex;
+>     int lv_rewardPlayer;
+>     int lv_rewardTeam;
+>     int lv_rewardCpuPlayer;
+>     point lv_captainSpawn;
+>     unitgroup lv_heroesOnPoint;
+>     bool[libCore_gv_bALMaxPlayers + 1] lv_isPlayerOnPoint;
+>     unit lv_heroUnit;
+>     int lv_player;
+> 
+1291a1303,1315
+>     unitgroup auto47101982_g;
+>     int auto47101982_u;
+>     const int auto4F86E8E4_ae = libCore_gv_bALMaxPlayers;
+>     const int auto4F86E8E4_ai = 1;
+> 
+>     // Variable Initialization
+>     lv_campIndex = libGame_gf_MercCampRewardGrantedCampIndex();
+>     lv_rewardPlayer = libGame_gf_MercCampRewardGrantedPlayer();
+>     lv_rewardTeam = libGame_gf_TeamNumberOfPlayer(lv_rewardPlayer);
+>     lv_rewardCpuPlayer = libGame_gf_ComputerPlayerInTeam(lv_rewardTeam);
+>     lv_captainSpawn = libMapM_gv_jungleCreepCamps[lv_campIndex].lv_mapDataCampCaptainSpawnPoint;
+>     lv_heroesOnPoint = UnitGroupEmpty();
+> 
+1298,1300c1322,1324
+<         UnitRemove(libMHmu_gv_mercCamp_VisionUnit[libGame_gf_MercCampRewardGrantedCampIndex()]);
+<         UnitCreate(1, "ReconCampVisionUnit", c_unitCreateIgnorePlacement, libGame_gf_ComputerPlayerInTeam(libGame_gf_TeamNumberOfPlayer(libGame_gf_MercCampRewardGrantedPlayer())), libMapM_gv_jungleCreepCamps[libGame_gf_MercCampRewardGrantedCampIndex()].lv_mapDataCampCaptainSpawnPoint, PointGetFacing(libMapM_gv_jungleCreepCamps[libGame_gf_MercCampRewardGrantedCampIndex()].lv_mapDataCampCaptainSpawnPoint), null);
+<         libMHmu_gv_mercCamp_VisionUnit[libGame_gf_MercCampRewardGrantedCampIndex()] = UnitLastCreated();
+---
+>         UnitRemove(libMHmu_gv_mercCamp_VisionUnit[lv_campIndex]);
+>         UnitCreate(1, "ReconCampVisionUnit", c_unitCreateIgnorePlacement, lv_rewardCpuPlayer, lv_captainSpawn, PointGetFacing(lv_captainSpawn), null);
+>         libMHmu_gv_mercCamp_VisionUnit[lv_campIndex] = UnitLastCreated();
+1302,1303c1326,1345
+<         libMHmu_gv_mercCamp_TeamOwner[libGame_gf_MercCampRewardGrantedCampIndex()] = libGame_gf_TeamNumberOfPlayer(libGame_gf_MercCampRewardGrantedPlayer());
+<         libMHmu_gf_HenchmenCustomRespawnCreepsForCamp(libGame_gf_MercCampRewardGrantedCampIndex(), libGame_gf_ComputerPlayerInTeam(libGame_gf_TeamNumberOfPlayer(libGame_gf_MercCampRewardGrantedPlayer())));
+---
+>         libMHmu_gv_mercCamp_TeamOwner[lv_campIndex] = lv_rewardTeam;
+>         libMHmu_gf_HenchmenCustomRespawnCreepsForCamp(lv_campIndex, lv_rewardCpuPlayer);
+>         lv_heroesOnPoint = UnitGroupAlliance(lv_rewardCpuPlayer, c_unitAllianceAlly, RegionCircle(lv_captainSpawn, libMapM_gv_bALJungleCampCaptureRadius), UnitFilter((1 << c_targetFilterHeroic), 0, 0, 0), 0);
+>         auto47101982_g = lv_heroesOnPoint;
+>         auto47101982_u = UnitGroupCount(auto47101982_g, c_unitCountAll);
+>         for (;; auto47101982_u -= 1) {
+>             lv_heroUnit = UnitGroupUnitFromEnd(auto47101982_g, auto47101982_u);
+>             if (lv_heroUnit == null) { break; }
+>             if (((UnitFilterMatch(lv_heroUnit, UnitGetOwner(lv_heroUnit), UnitFilter(0, 0, (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32)) | (1 << (c_targetFilterHidden - 32)) | (1 << (c_targetFilterBenign - 32)))) == true) || (UnitHasBehavior2(lv_heroUnit, "CapturePointAllowed") == true)) && ((UnitBehaviorCount(lv_heroUnit, "UltimateEvolutionBuff") == 1) || (UnitBehaviorCount(lv_heroUnit, "CapturePointAllowed") == 1) || (UnitTestState(lv_heroUnit, c_unitStateHallucination) == false))) {
+>                 lv_isPlayerOnPoint[UnitGetOwner(lv_heroUnit)] = true;
+>             }
+> 
+>         }
+>         lv_player = 1;
+>         for ( ; ( (auto4F86E8E4_ai >= 0 && lv_player <= auto4F86E8E4_ae) || (auto4F86E8E4_ai < 0 && lv_player >= auto4F86E8E4_ae) ) ; lv_player += auto4F86E8E4_ai ) {
+>             if ((lv_isPlayerOnPoint[lv_player] == true)) {
+>                 libGame_gv_scoreValues[lv_player].lv_watchTowersCaptured += 1;
+>             }
+> 
+>         }
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/amazon.stormmod/base.stormdata/gamedata/amazondata.xml /snapshot-69264/mods/heromods/amazon.stormmod/base.stormdata/gamedata/amazondata.xml
+935,940d934
+<   <CEffectApplyBehavior id="AmazonValkyrieApplyCollisionProbes">
+<     <Behavior value="AmazonValkyrieCollisionProbes" />
+<   </CEffectApplyBehavior>
+<   <CEffectRemoveBehavior id="AmazonValkyrieRemoveCollisionProbes">
+<     <BehaviorLink value="AmazonValkyrieCollisionProbes" />
+<   </CEffectRemoveBehavior>
+1177a1172,1177
+>   <CEffectApplyBehavior id="AmazonValkyrieApplyCollisionProbes">
+>     <Behavior value="AmazonValkyrieCollisionProbes" />
+>   </CEffectApplyBehavior>
+>   <CEffectRemoveBehavior id="AmazonValkyrieRemoveCollisionProbes">
+>     <BehaviorLink value="AmazonValkyrieCollisionProbes" />
+>   </CEffectRemoveBehavior>
+1197c1197
+<     <Amount value="225" />
+---
+>     <Amount value="210" />
+2214c2214
+<         <Value value="0.045000" />
+---
+>         <Value value="0.040000" />
+2222c2222
+<         <Value value="0.045000" />
+---
+>         <Value value="0.040000" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/dva.stormmod/base.stormdata/ui/layout/dva.stormlayout /snapshot-69264/mods/heromods/dva.stormmod/base.stormdata/ui/layout/dva.stormlayout
+740a741,744
+>             <Controller type="Property" property="Unclipped" end="pause">
+>               <Key type="Property" time="0.0" value="true" />
+>               <Key type="Property" time="0.5" value="false" />
+>             </Controller>
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/junkrat.stormmod/base.stormdata/gamedata/junkratdata.xml /snapshot-69264/mods/heromods/junkrat.stormmod/base.stormdata/gamedata/junkratdata.xml
+107c107
+<     <Range value="10" />
+---
+>     <Range value="10.5" />
+182a183,190
+>   <CActorModel id="JunkratConcussionMineWarningPlacement" parent="StormPlacementModel">
+>     <Filter index="All" value="0" />
+>     <Inherits index="Visibility" value="1" />
+>     <On Terms="ActorCreation" Send="$Stand,Work PlayForever" />
+>     <Host Subject="JunkratConcussionMineWarningSplat" />
+>     <HostSiteOps Ops="SOpShadow SOpJunkratConcussionMineFacingForwardGuide SOp2DRotation SOp180" />
+>     <Model value="JunkratConcussionMinePlacementModel" />
+>   </CActorModel>
+811c819
+<     <Scale value="10.500000" />
+---
+>     <Scale value="11.000000" />
+817,818c825
+<   <CActorModel id="JunkratConcussionMineWarningSplat" parent="StormModelAnimationStyleContinuousUnit">
+<     <Inherits index="Opacity" value="1" />
+---
+>   <CActorModel id="JunkratConcussionMineWarningSplat" parent="StormModelAnimationStyleContinuous">
+820c827,831
+<     <Inherits index="Visibility" value="0" />
+---
+>     <On Terms="Effect.JunkratConcussionMineLaunchMineMissileCreateWarningPersistent.Start" Send="Create" />
+>     <On Terms="Effect.JunkratConcussionMineLaunchMineMissileCreateWarningPersistent.Stop" Send="Destroy Immediate" />
+>     <On Terms="ActorCreation" Send="Create JunkratConcussionMineWarningPlacement" />
+>     <On Terms="ActorDestruction" Target="JunkratConcussionMineWarningPlacement" Send="Destroy Immediate" />
+>     <ModelFlags index="AllowHitTest" value="0" />
+1799a1811,1816
+>   <CEffectDestroyPersistent id="JunkratConcussionMineDestroyWarningPersistent">
+>     <WhichLocation Effect="JunkratConcussionMineLaunchMineMissile" Value="TargetPoint" />
+>     <Effect value="JunkratConcussionMineLaunchMineMissileCreateWarningPersistent" />
+>     <Radius value="0.25" />
+>     <RequireCaster Value="Caster" />
+>   </CEffectDestroyPersistent>
+1803a1821,1824
+>   <CEffectCreatePersistent id="JunkratConcussionMineLaunchMineMissileCreateWarningPersistent">
+>     <WhichLocation Effect="JunkratConcussionMineLaunchMineMissile" />
+>     <ExpireDelay value="1" />
+>   </CEffectCreatePersistent>
+1806a1828
+>     <EffectArray value="JunkratConcussionMineLaunchMineMissileCreateWarningPersistent" />
+1830a1853
+>     <EffectArray value="JunkratConcussionMineDestroyWarningPersistent" />
+2386c2409
+<     <Amount value="110" />
+---
+>     <Amount value="116" />
+2389c2412
+<     <Amount value="110" />
+---
+>     <Amount value="116" />
+4380d4402
+<     <CategoryDuckingLocalAlly value="Ally_Spell_InstaCast" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/medivh.stormmod/base.stormdata/gamedata/medivhdata.xml /snapshot-69264/mods/heromods/medivh.stormmod/base.stormdata/gamedata/medivhdata.xml
+59c59
+<       <Cooldown TimeUse="8" />
+---
+>       <Cooldown TimeUse="9" />
+1374c1374
+<       <DamageDealtFraction index="Ability" value="0.25" />
+---
+>       <DamageDealtFraction index="Ability" value="0.3" />
+1650c1650
+<       <AllArmorBonus value="25" />
+---
+>       <AllArmorBonus value="30" />
+1898c1898
+<     <Cost Abil="MedivhForceOfWill,Execute" CooldownOperation="Set" CooldownTimeUse="3" />
+---
+>     <Cost Abil="MedivhForceOfWill,Execute" CooldownOperation="Set" CooldownTimeUse="4" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistodata.xml /snapshot-69264/mods/heromods/mephisto.stormmod/base.stormdata/gamedata/mephistodata.xml
+93c93
+<       <Cooldown TimeUse="80" />
+---
+>       <Cooldown TimeUse="60" />
+1191c1191
+<     <Duration value="7" />
+---
+>     <Duration value="5" />
+1213,1215c1213,1215
+<       <HealDealtAdditiveMultiplier index="Life" value="0.2" />
+<       <HealDealtAdditiveMultiplier index="Shields" value="0.2" />
+<       <DamageDealtFraction index="Ability" value="0.2" />
+---
+>       <HealDealtAdditiveMultiplier index="Life" value="0.15" />
+>       <HealDealtAdditiveMultiplier index="Shields" value="0.15" />
+>       <DamageDealtFraction index="Ability" value="0.15" />
+1255,1257c1255,1257
+<       <HealDealtAdditiveMultiplier index="Life" value="0.2" />
+<       <HealDealtAdditiveMultiplier index="Shields" value="0.2" />
+<       <DamageDealtFraction index="Ability" value="0.2" />
+---
+>       <HealDealtAdditiveMultiplier index="Life" value="0.15" />
+>       <HealDealtAdditiveMultiplier index="Shields" value="0.15" />
+>       <DamageDealtFraction index="Ability" value="0.15" />
+1777c1777
+<     <LeechFraction index="Life" value="0.5" />
+---
+>     <LeechFraction index="Life" value="0.6" />
+4004c4004
+<         <Value value="3.000000" />
+---
+>         <Value value="5.000000" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/stukov.stormmod/base.stormdata/gamedata/stukovdata.xml /snapshot-69264/mods/heromods/stukov.stormmod/base.stormdata/gamedata/stukovdata.xml
+1122c1122
+<     <Max value="15" />
+---
+>     <Max value="12" />
+4746c4746
+<   <CValidatorUnitCompareTokenCount id="StukovHas15ItHungersTokens">
+---
+>   <CValidatorUnitCompareTokenCount id="StukovHas12ItHungersTokens">
+4748c4748
+<     <Value value="15" />
+---
+>     <Value value="12" />
+4787c4787
+<     <Value value="15" />
+---
+>     <Value value="12" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/tracer.stormmod/base.stormdata/ui/layout/tracer.stormlayout /snapshot-69264/mods/heromods/tracer.stormmod/base.stormdata/ui/layout/tracer.stormlayout
+1119a1120,1123
+>             <Controller type="Property" property="Unclipped" end="pause">
+>               <Key type="Property" time="0.0" value="true" />
+>               <Key type="Property" time="0.5" value="false" />
+>             </Controller>
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/whitemane.stormmod/base.stormdata/gamedata/whitemanedata.xml /snapshot-69264/mods/heromods/whitemane.stormmod/base.stormdata/gamedata/whitemanedata.xml
+1448c1448
+<     <RechargeVitalRate value="53" />
+---
+>     <RechargeVitalRate value="50" />
+1452c1452
+<     <Amount value="53" />
+---
+>     <Amount value="50" />
+1774c1774
+<     <Amount value="82" />
+---
+>     <Amount value="78" />
+3295,3297c3295,3297
+<     <LifeStart value="1434" />
+<     <LifeMax value="1434" />
+<     <LifeRegenRate value="2.9882" />
+---
+>     <LifeStart value="1400" />
+>     <LifeMax value="1400" />
+>     <LifeRegenRate value="2.9218" />
+diff -r --ignore-file-name-case /snapshot-68778/mods/heromods/yrel.stormmod/base.stormdata/gamedata/yreldata.xml /snapshot-69264/mods/heromods/yrel.stormmod/base.stormdata/gamedata/yreldata.xml
+398,400c398
+<   <CActorModel id="YrelTauntFX" parent="StormModelAnimationStyleOneShotUnit">
+<     <Inherits index="Visibility" value="1" />
+<   </CActorModel>
+---
+>   <CActorModel id="YrelTauntFX" parent="StormModelAnimationStyleOneShotUnit" />
+403d400
+<     <Inherits index="Visibility" value="1" />
+475d471
+<     <Inherits index="Visibility" value="1" />
+492d487
+<     <Inherits index="Visibility" value="1" />
+584d578
+<     <Inherits index="Visibility" value="1" />
+638d631
+<     <Inherits index="Visibility" value="1" />
+647d639
+<     <Inherits index="Visibility" value="1" />
+709d700
+<     <Inherits index="Visibility" value="1" />
+1091d1081
+<     <Inherits index="Visibility" value="1" />
+1209d1198
+<     <Inherits index="Visibility" value="1" />
+1281d1269
+<     <Inherits index="Visibility" value="1" />
+1431,1432c1419,1422
+<     <Duration value="5" />
+<     <ArmorModification AllArmorBonus="35" />
+---
+>     <Duration value="4" />
+>     <ArmorModification>
+>       <AllArmorBonus value="25" />
+>     </ArmorModification>
+1439c1429,1431
+<     <ArmorModification AllArmorBonus="40" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="40" />
+>     </ArmorModification>
+1553c1545,1547
+<     <ArmorModification AllArmorBonus="-20" />
+---
+>     <ArmorModification>
+>       <AllArmorBonus value="-20" />
+>     </ArmorModification>
