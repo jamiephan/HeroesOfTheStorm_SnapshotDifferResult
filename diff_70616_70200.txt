@@ -1,0 +1,645 @@
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/buildid.txt /snapshot-70616/mods/core.stormmod/base.stormdata/buildid.txt
+1c1
+< B70200
+---
+> B70616
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/databuildid.txt /snapshot-70616/mods/core.stormmod/base.stormdata/databuildid.txt
+1c1
+< B70200
+---
+> B70616
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/depotcache/source_build.txt /snapshot-70616/mods/core.stormmod/base.stormdata/depotcache/source_build.txt
+1c1
+< B70150
+\ No newline at end of file
+---
+> B70473
+\ No newline at end of file
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/gamedata/colorspecdata.xml /snapshot-70616/mods/core.stormmod/base.stormdata/gamedata/colorspecdata.xml
+269c269
+<     <CColorSpec id="ColorKillLogNeutralLight"><Color index="Diffuse" value="205,141,246" /></CColorSpec><CColorSpec id="ColorKillLogAllyLight"><Color index="Diffuse" value="102,154,240" /></CColorSpec><CColorSpec id="ColorKillLogAllyLightColorblind"><Color index="Diffuse" value="102,222,240" /></CColorSpec><CColorSpec id="ColorKillLogEnemyLight"><Color index="Diffuse" value="240,95,102" /></CColorSpec><CColorSpec id="ColorKillLogEnemyLightColorblind"><Color index="Diffuse" value="240,167,96" /></CColorSpec><CColorSpec id="ColorKillLogNeutral"><Color index="Diffuse" value="183,100,226" /></CColorSpec><CColorSpec id="ColorKillLogAlly"><Color index="Diffuse" value="59,124,223" /></CColorSpec><CColorSpec id="ColorKillLogAllyColorblind"><Color index="Diffuse" value="59,202,223" /></CColorSpec><CColorSpec id="ColorKillLogEnemy"><Color index="Diffuse" value="223,55,63" /></CColorSpec><CColorSpec id="ColorKillLogEnemyColorblind"><Color index="Diffuse" value="225,138,53" /></CColorSpec><CColorSpec id="ColorKillLogNeutralDark"><Color index="Diffuse" value="104,11,147" /></CColorSpec><CColorSpec id="ColorKillLogAllyDark"><Color index="Diffuse" value="0,58,205" /></CColorSpec><CColorSpec id="ColorKillLogAllyDarkColorblind"><Color index="Diffuse" value="0,179,206" /></CColorSpec><CColorSpec id="ColorKillLogEnemyDark"><Color index="Diffuse" value="168,4,12" /></CColorSpec><CColorSpec id="ColorKillLogEnemyDarkColorblind"><Color index="Diffuse" value="166,85,6" /></CColorSpec><CColorSpec id="ColorMapMechanicAlly"><Color index="Diffuse" value="5,199,255" /></CColorSpec><CColorSpec id="ColorMapMechanicEnemy"><Color index="Diffuse" value="255,5,58" /></CColorSpec><CColorSpec id="ColorMapMechanicEnemyColorblind"><Color index="Diffuse" value="246,130,1" /></CColorSpec><CColorSpec id="ColorVoiceChatParty"><Color index="Diffuse" value="158,127,255" /></CColorSpec><CColorSpec id="ColorVoiceChatPartyColorblind"><Color index="Diffuse" value="158,127,255" /></CColorSpec><CColorSpec id="ColorVoiceChatTeam"><Color index="Diffuse" value="2,140,247" /></CColorSpec><CColorSpec id="ColorVoiceChatTeamColorblind"><Color index="Diffuse" value="2,140,247" /></CColorSpec><CColorSpec id="ColorDurationBar"><Color index="Diffuse" value="255,180,0" /></CColorSpec><CColorSpec id="ColorDurationBarColorblind"><Color index="Diffuse" value="126,0,164" /></CColorSpec><CColorSpec id="ColorTargetHelperHealthFriendly"><Color index="Diffuse" value="0,255,0" /></CColorSpec><CColorSpec id="ColorTargetHelperHOTFriendly"><Color index="Diffuse" value="48,90,48" /></CColorSpec><CColorSpec id="ColorVeterancyBarFriendly"><Color index="Diffuse" value="19,92,225" /></CColorSpec><CColorSpec id="ColorVeterancyBarFriendlyColorBlind"><Color index="Diffuse" value="0,180,255" /></CColorSpec><CColorSpec id="ColorVeterancyBarEnemy"><Color index="Diffuse" value="242,61,37" /></CColorSpec><CColorSpec id="ColorVeterancyBarEnemyColorblind"><Color index="Diffuse" value="246,130,1" /></CColorSpec><CColorSpec id="ColorEnergyBar"><Color index="Diffuse" value="63,221,246" /></CColorSpec><CColorSpec id="ColorEnergyBarGrant"><Color index="Diffuse" value="28,97,108" /></CColorSpec><CColorSpec id="ColorEnergyBarPrieview"><Color index="Diffuse" value="136,136,255" /></CColorSpec><CColorSpec id="ColorWhitemaneEnergyBarPreview"><Color index="Diffuse" value="255,136,136" /></CColorSpec><CColorSpec id="ColorBrewEnergyBar"><Color index="Diffuse" value="235,226,76" /></CColorSpec><CColorSpec id="ColorFuryEnergyBar"><Color index="Diffuse" value="234,154,31" /></CColorSpec><CColorSpec id="ColorDivaEnergyBar"><Color index="Diffuse" value="255,105,180" /></CColorSpec><CColorSpec id="ColorAmmoEnergyBar"><Color index="Diffuse" value="0,210,255" /></CColorSpec></Catalog>
+\ No newline at end of file
+---
+>     <CColorSpec id="ColorKillLogNeutralLight"><Color index="Diffuse" value="205,141,246" /></CColorSpec><CColorSpec id="ColorKillLogAllyLight"><Color index="Diffuse" value="102,154,240" /></CColorSpec><CColorSpec id="ColorKillLogAllyLightColorblind"><Color index="Diffuse" value="102,222,240" /></CColorSpec><CColorSpec id="ColorKillLogEnemyLight"><Color index="Diffuse" value="240,95,102" /></CColorSpec><CColorSpec id="ColorKillLogEnemyLightColorblind"><Color index="Diffuse" value="240,167,96" /></CColorSpec><CColorSpec id="ColorKillLogNeutral"><Color index="Diffuse" value="183,100,226" /></CColorSpec><CColorSpec id="ColorKillLogAlly"><Color index="Diffuse" value="59,124,223" /></CColorSpec><CColorSpec id="ColorKillLogAllyColorblind"><Color index="Diffuse" value="59,202,223" /></CColorSpec><CColorSpec id="ColorKillLogEnemy"><Color index="Diffuse" value="223,55,63" /></CColorSpec><CColorSpec id="ColorKillLogEnemyColorblind"><Color index="Diffuse" value="225,138,53" /></CColorSpec><CColorSpec id="ColorKillLogNeutralDark"><Color index="Diffuse" value="104,11,147" /></CColorSpec><CColorSpec id="ColorKillLogAllyDark"><Color index="Diffuse" value="0,58,205" /></CColorSpec><CColorSpec id="ColorKillLogAllyDarkColorblind"><Color index="Diffuse" value="0,179,206" /></CColorSpec><CColorSpec id="ColorKillLogEnemyDark"><Color index="Diffuse" value="168,4,12" /></CColorSpec><CColorSpec id="ColorKillLogEnemyDarkColorblind"><Color index="Diffuse" value="166,85,6" /></CColorSpec><CColorSpec id="ColorMapMechanicAlly"><Color index="Diffuse" value="5,199,255" /></CColorSpec><CColorSpec id="ColorMapMechanicEnemy"><Color index="Diffuse" value="255,5,58" /></CColorSpec><CColorSpec id="ColorMapMechanicEnemyColorblind"><Color index="Diffuse" value="246,130,1" /></CColorSpec><CColorSpec id="ColorVoiceChatParty"><Color index="Diffuse" value="158,127,255" /></CColorSpec><CColorSpec id="ColorVoiceChatPartyColorblind"><Color index="Diffuse" value="158,127,255" /></CColorSpec><CColorSpec id="ColorVoiceChatTeam"><Color index="Diffuse" value="2,140,247" /></CColorSpec><CColorSpec id="ColorVoiceChatTeamColorblind"><Color index="Diffuse" value="2,140,247" /></CColorSpec><CColorSpec id="ColorDurationBar"><Color index="Diffuse" value="255,180,0" /></CColorSpec><CColorSpec id="ColorDurationBarColorblind"><Color index="Diffuse" value="126,0,164" /></CColorSpec><CColorSpec id="ColorUnitStatusProgressBar"><Color index="Diffuse" value="255,128,64" /><Color index="Emissive" value="254,138,14" /></CColorSpec><CColorSpec id="ColorUnitStatusProgressBarColorblind"><Color index="Diffuse" value="126,0,164" /><Color index="Emissive" value="70,45,160" /></CColorSpec><CColorSpec id="ColorTargetHelperHealthFriendly"><Color index="Diffuse" value="0,255,0" /></CColorSpec><CColorSpec id="ColorTargetHelperHOTFriendly"><Color index="Diffuse" value="48,90,48" /></CColorSpec><CColorSpec id="ColorVeterancyBarFriendly"><Color index="Diffuse" value="19,92,225" /></CColorSpec><CColorSpec id="ColorVeterancyBarFriendlyColorBlind"><Color index="Diffuse" value="0,180,255" /></CColorSpec><CColorSpec id="ColorVeterancyBarEnemy"><Color index="Diffuse" value="242,61,37" /></CColorSpec><CColorSpec id="ColorVeterancyBarEnemyColorblind"><Color index="Diffuse" value="246,130,1" /></CColorSpec><CColorSpec id="ColorEnergyBar"><Color index="Diffuse" value="63,221,246" /></CColorSpec><CColorSpec id="ColorEnergyBarGrant"><Color index="Diffuse" value="28,97,108" /></CColorSpec><CColorSpec id="ColorEnergyBarPrieview"><Color index="Diffuse" value="136,136,255" /></CColorSpec><CColorSpec id="ColorWhitemaneEnergyBarPreview"><Color index="Diffuse" value="255,136,136" /></CColorSpec><CColorSpec id="ColorBrewEnergyBar"><Color index="Diffuse" value="235,226,76" /></CColorSpec><CColorSpec id="ColorFuryEnergyBar"><Color index="Diffuse" value="234,154,31" /></CColorSpec><CColorSpec id="ColorDivaEnergyBar"><Color index="Diffuse" value="255,105,180" /></CColorSpec><CColorSpec id="ColorAmmoEnergyBar"><Color index="Diffuse" value="0,210,255" /></CColorSpec></Catalog>
+\ No newline at end of file
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/gamedata/colorstyledata.xml /snapshot-70616/mods/core.stormmod/base.stormdata/gamedata/colorstyledata.xml
+463a464,469
+>   <CColorStyle id="UnitStatusProgressBar">
+>     <ColorEntry index="DefaultNeutral">
+>       <Value index="Default" value="ColorUnitStatusProgressBar" />
+>       <Value index="Colorblind" value="ColorUnitStatusProgressBarColorblind" />
+>     </ColorEntry>
+>   </CColorStyle>
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/ui/layout/glue/boostcollectionpanel.stormlayout /snapshot-70616/mods/core.stormmod/base.stormdata/ui/layout/glue/boostcollectionpanel.stormlayout
+64a65,69
+>     <Frame type="Image" name="DiscountIndicatorImage">
+>       <Anchor side="Top" relative="$parent/BuyButton0" pos="Mid" offset="0" />
+>       <Anchor side="Left" relative="$parent/BuyButton0" pos="Min" offset="10" />
+>       <Anchor side="Bottom" relative="$parent/BuyButton0" pos="Mid" offset="0" />
+>     </Frame>
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/ui/layout/glue/shardpackpurchasedialog.stormlayout /snapshot-70616/mods/core.stormmod/base.stormdata/ui/layout/glue/shardpackpurchasedialog.stormlayout
+413c413
+<           <Action type="SetProperty" Visible="True" />
+---
+>           <Action type="SetProperty" Visible="false" />
+416c416
+<           <Action type="SetProperty" Visible="False" />
+---
+>           <Action type="SetProperty" Visible="false" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/core.stormmod/base.stormdata/ui/layout/ui/unitstatus.stormlayout /snapshot-70616/mods/core.stormmod/base.stormdata/ui/layout/ui/unitstatus.stormlayout
+217c217
+<     <ColorStyle val="Primary" index="0" />
+---
+>     <ColorStyle val="UnitStatusProgressBar" index="0" />
+221d220
+<     <ForcedRelation val="TeamHostile" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesbrawlmods/heroesbrawl.stormmod/base.stormdata/ui/layout/glue/heronexusbrawlpanel.stormlayout /snapshot-70616/mods/heroesbrawlmods/heroesbrawl.stormmod/base.stormdata/ui/layout/glue/heronexusbrawlpanel.stormlayout
+995c995
+<           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" AchievementId="5216701565559771701" />
+---
+>           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" MapLink="EFB" />
+999c999
+<           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" AchievementId="5216701565569561767" />
+---
+>           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" MapLink="EFBH" />
+1003c1003
+<           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" AchievementId="5216701565552840631" />
+---
+>           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" MapLink="DMSN" />
+1007c1007
+<           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" AchievementId="5216701565563572852" />
+---
+>           <When type="Property" frame="$ScreenPlay_HeroNexusBrawlPanel" MapLink="DMSH" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/abathurdata/abathurdata.xml
+2486c2486
+<     <RechargeVitalRate value="68" />
+---
+>     <RechargeVitalRate value="62" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/azmodandata/azmodandata.xml
+1110,1111c1110,1111
+<       <WeaponRange value="2" />
+<       <WeaponScanBonus value="2" />
+---
+>       <WeaponRange value="1.5" />
+>       <WeaponScanBonus value="1.5" />
+2553c2553
+<     <FlatModifierArray index="Pride" Validator="AzmodanHasPrideCarry" Modifier="125" />
+---
+>     <FlatModifierArray index="Pride" Validator="AzmodanHasPrideCarry" Modifier="100" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/kerrigandata/kerrigandata.xml
+80c80
+<       <Vital index="Energy" value="60" />
+---
+>       <Vital index="Energy" value="65" />
+141c141
+<       <Vital index="Energy" value="75" />
+---
+>       <Vital index="Energy" value="80" />
+166d165
+<     <Scale value="0.5" />
+808,810c807,809
+<       <HealDealtAdditiveMultiplier index="Life" value="0.3" />
+<       <HealDealtAdditiveMultiplier index="Shields" value="0.3" />
+<       <DamageDealtFraction index="Ability" value="0.3" />
+---
+>       <HealDealtAdditiveMultiplier index="Life" value="0.35" />
+>       <HealDealtAdditiveMultiplier index="Shields" value="0.35" />
+>       <DamageDealtFraction index="Ability" value="0.35" />
+838c837
+<     <Duration value="4" />
+---
+>     <Duration value="5" />
+922c921
+<     <Max value="100" />
+---
+>     <Max value="75" />
+1379c1378
+<     <Value value="0.1875" />
+---
+>     <Value value="0.25" />
+1532c1531
+<     <Value value="10" />
+---
+>     <Value value="5" />
+1799c1798
+<     <Amount value="180" />
+---
+>     <Amount value="195" />
+2097c2096
+<     <Amount value="120" />
+---
+>     <Amount value="115" />
+2114c2113
+<     <Amount value="120" />
+---
+>     <Amount value="115" />
+2149c2148
+<     <Amount value="180" />
+---
+>     <Amount value="165" />
+2873c2872
+<         <Value value="1.000000" />
+---
+>         <Value value="1.500000" />
+2880c2879
+<         <Value value="1.000000" />
+---
+>         <Value value="1.500000" />
+3011,3012c3010,3011
+<     <LifeStart value="550" />
+<     <LifeMax value="550" />
+---
+>     <LifeStart value="750" />
+>     <LifeMax value="750" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/medicdata/medicdata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/medicdata/medicdata.xml
+1309c1309
+<       <AllArmorBonus value="25" />
+---
+>       <AllArmorBonus value="30" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/novadata/novadata.xml
+1219a1220,1225
+>   <CEffectModifyTokenCount id="NovaPrecisionSniperPsionicEfficiencyTalentAddTokenCount" parent="BaseEffectModifyTokenCount">
+>     <ValidatorArray value="TargetIsHero" />
+>     <Chance value="0" />
+>     <CollationId value="NovaPrecisionSniperAddTokenCount" />
+>     <TokenId value="NovaPrecisionSniperTokenCounter" />
+>   </CEffectModifyTokenCount>
+1261c1267
+<   <CEffectCreateHealer id="NovaSnipePsionicEfficiencyCreateManaHealer">
+---
+>   <CEffectCreateHealer id="NovaSnipePerfectShotTalentCreateManaHealer">
+1548c1554
+<     <EffectArray value="NovaPrecisionSniperAddTokenCount" />
+---
+>     <EffectArray value="NovaSnipePerfectShotTalentCreateManaHealer" />
+2113d2118
+<     <EffectArray value="NovaSnipeModifyCloakCooldown" />
+2114a2120
+>     <EffectArray value="NovaPrecisionSniperPsionicEfficiencyTalentAddTokenCount" />
+2116d2121
+<     <EffectArray value="NovaSnipePsionicEfficiencyCreateManaHealer" />
+2739c2744
+<         <Entry value="NovaSnipePsionicEfficiencyCreateManaHealer" />
+---
+>         <Entry value="NovaPrecisionSniperPsionicEfficiencyTalentAddTokenCount" />
+2873a2879,2885
+>         <Field value="Chance" />
+>         <Value value="1.000000" />
+>       </Modifications>
+>       <Modifications>
+>         <Type value="FlatModification" />
+>         <Catalog value="Effect" />
+>         <Entry value="NovaSnipePerfectShotTalentCreateManaHealer" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/heroes/tyrandedata/tyrandedata.xml
+96c96
+<         <TimeUse value="15" />
+---
+>         <TimeUse value="16" />
+1851,1853c1851,1853
+<     <TalentTreeArray Talent="TyrandeMoonlitArrows" Tier="1" Column="1" />
+<     <TalentTreeArray Talent="TyrandeCelestialAttunement" Tier="1" Column="2" />
+<     <TalentTreeArray Talent="TyrandeKaldoreiResistance" Tier="1" Column="3" />
+---
+>     <TalentTreeArray Talent="TyrandeLightOfEluneEverlastingLight" Tier="1" Column="1" />
+>     <TalentTreeArray Talent="TyrandeMarkofMending" Tier="1" Column="2" />
+>     <TalentTreeArray Talent="TyrandeElunesChosen" Tier="1" Column="3" />
+1857,1859c1857,1859
+<     <TalentTreeArray Talent="TyrandeLightOfEluneEverlastingLight" Tier="3" Column="1" />
+<     <TalentTreeArray Talent="TyrandeMarkofMending" Tier="3" Column="2" />
+<     <TalentTreeArray Talent="TyrandeElunesChosen" Tier="3" Column="3" />
+---
+>     <TalentTreeArray Talent="TyrandeMoonlitArrows" Tier="3" Column="1" />
+>     <TalentTreeArray Talent="TyrandeCelestialAttunement" Tier="3" Column="2" />
+>     <TalentTreeArray Talent="TyrandeKaldoreiResistance" Tier="3" Column="3" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/base.stormdata/gamedata/validatordata.xml /snapshot-70616/mods/heroesdata.stormmod/base.stormdata/gamedata/validatordata.xml
+141a142,146
+>   <CValidatorUnitCompareVital id="TargetLifeGT75Percent">
+>     <Compare value="GT" />
+>     <Type value="Fraction" />
+>     <Value value="0.75" />
+>   </CValidatorUnitCompareVital>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heroesdata.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+4425c4425
+< Button/SimpleDisplayText/NovaPerfectShotTalent=Increase Snipe stacks, Hero hits reduce cooldown
+---
+> Button/SimpleDisplayText/NovaPerfectShotTalent=Hero hits reduce Snipe cooldown, refund Mana
+4443c4443
+< Button/SimpleDisplayText/NovaSnipePsionicEfficiencyTalent=Increase Snipe range, hitting Heroes refunds Mana
+---
+> Button/SimpleDisplayText/NovaSnipePsionicEfficiencyTalent=Increase Snipe range and stacks
+6135c6135
+< Button/Tooltip/NovaPerfectShotTalent=Hitting an enemy Hero with Snipe reduces the cooldown by <c val="#TooltipNumbers"><d ref="-1*Effect,NovaPerfectShotModifyCooldown,Cost[0].CooldownTimeUse"/></c> seconds and grants an additional stack of Snipe.
+---
+> Button/Tooltip/NovaPerfectShotTalent=Hitting an enemy Hero with Snipe reduces its cooldown by <c val="#TooltipNumbers"><d ref="-1*Effect,NovaPerfectShotModifyCooldown,Cost[0].CooldownTimeUse"/></c> seconds and refunds its Mana cost.
+6149c6149
+< Button/Tooltip/NovaSnipePsionicEfficiencyTalent=Snipe's range is increased by <c val="#TooltipNumbers">15%</c>, and hitting a Hero with Snipe refunds its Mana cost.
+---
+> Button/Tooltip/NovaSnipePsionicEfficiencyTalent=Snipe's range is increased by <c val="#TooltipNumbers">15%</c> and hitting a Hero grants an additional stack of Precision Sniper.
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesmapmods/battlegroundmapmods/volskayadata.stormmod/base.stormdata/gamedata/effectdata.xml /snapshot-70616/mods/heroesmapmods/battlegroundmapmods/volskayadata.stormmod/base.stormdata/gamedata/effectdata.xml
+502a503,504
+>         <ValidatorArray index="1" value="VolskayaVehicleValidatorCombine"/>
+>         <PeriodicValidator value="VolskayaVehicleValidatorCombine"/>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heroesmapmods/battlegroundmapmods/volskayadata.stormmod/base.stormdata/gamedata/validatordata.xml /snapshot-70616/mods/heroesmapmods/battlegroundmapmods/volskayadata.stormmod/base.stormdata/gamedata/validatordata.xml
+197a198,207
+>     <CValidatorCombine id="VolskayaVehicleValidatorCombine">
+>         <Type value="And"/>
+>         <CombineArray value="VehicleGenericTargetIsUnoccupiedOrAttachedVehicleUnoccupied"/>
+>         <CombineArray value="CasterNotStasisAndTargetNotStasis"/>
+>         <CombineArray value="MapSpecificVehicleValidatorCases"/>
+>         <CombineArray value="CasterNotPushPull"/>
+>         <CombineArray value="VehicleGenericPlayerNotAlreadyInVehicle"/>
+>         <CombineArray value="TargetNotTimeStopped"/>
+>         <CombineArray value="CasterNotTimeStopped"/>
+>     </CValidatorCombine>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/alarak.stormmod/base.stormdata/gamedata/alarakdata.xml /snapshot-70616/mods/heromods/alarak.stormmod/base.stormdata/gamedata/alarakdata.xml
+1129c1129
+<     <DisableValidatorArray value="TargetLifeGT80Percent" />
+---
+>     <DisableValidatorArray value="TargetLifeGT75Percent" />
+1786,1788c1786,1788
+<     <Cost Abil="AlarakDiscordStrike,Execute" CooldownOperation="Add" CooldownTimeUse="-2.5" />
+<     <Cost Abil="AlarakLightningSurge,Execute" CooldownOperation="Add" CooldownTimeUse="-2.5" />
+<     <Cost Abil="AlarakTelekinesis,Execute" CooldownOperation="Add" CooldownTimeUse="-2.5" />
+---
+>     <Cost Abil="AlarakDiscordStrike,Execute" CooldownOperation="Add" CooldownTimeUse="-3" />
+>     <Cost Abil="AlarakLightningSurge,Execute" CooldownOperation="Add" CooldownTimeUse="-3" />
+>     <Cost Abil="AlarakTelekinesis,Execute" CooldownOperation="Add" CooldownTimeUse="-3" />
+2161c2161
+<     <Amount value="77" />
+---
+>     <Amount value="80" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/alarak.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heromods/alarak.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+137c137
+< Button/Tooltip/AlarakRuthlessMomentum=Basic Abilities recharge <c val="#TooltipNumbers"><d ref="-100*Effect,AlarakRuthlessMomentumModifyCooldowns,Cost[0].CooldownTimeUse/Behavior,AlarakRuthlessMomentumCarry,Period"/>%</c> faster while above <c val="#TooltipNumbers">80%</c> Health.
+---
+> Button/Tooltip/AlarakRuthlessMomentum=Basic Abilities recharge <c val="#TooltipNumbers"><d ref="-100*Effect,AlarakRuthlessMomentumModifyCooldowns,Cost[0].CooldownTimeUse/Behavior,AlarakRuthlessMomentumCarry,Period"/>%</c> faster while above <c val="#TooltipNumbers">75%</c> Health.
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/ana.stormmod/base.stormdata/gamedata/anadata.xml /snapshot-70616/mods/heromods/ana.stormmod/base.stormdata/gamedata/anadata.xml
+1658c1658
+<     <RechargeVitalRate value="215" />
+---
+>     <RechargeVitalRate value="205" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/deckard.stormmod/base.stormdata/gamedata/deckarddata.xml /snapshot-70616/mods/heromods/deckard.stormmod/base.stormdata/gamedata/deckarddata.xml
+9,10c9,10
+<       <Vital index="Energy" value="20" />
+<       <Cooldown TimeUse="3" />
+---
+>       <Vital index="Energy" value="25" />
+>       <Cooldown TimeUse="4" />
+2049c2049
+<     <RechargeVitalRate value="76.65" />
+---
+>     <RechargeVitalRate value="84" />
+2064c2064
+<     <RechargeVitalRate value="219" />
+---
+>     <RechargeVitalRate value="240" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatdata.xml /snapshot-70616/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatdata.xml
+194c194
+<     <Scale value="-0.05" />
+---
+>     <Scale value="-0.07" />
+215,217c215,217
+<     <On Terms="Effect.FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior.Start; At Caster" Send="Create" />
+<     <On Terms="Effect.FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior.Start; At Caster" Target="_Unit" Send="StatusIncrement StatusBarHide" />
+<     <On Terms="Effect.FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior.Start; At Caster" Target="_Unit" Send="Signal InvisibleModel" />
+---
+>     <On Terms="Behavior.FirebatBunkerDropPassengerUnitInsideBunker.On" Send="Create" />
+>     <On Terms="Behavior.FirebatBunkerDropPassengerUnitInsideBunker.On" Target="_Unit" Send="StatusIncrement StatusBarHide" />
+>     <On Terms="Behavior.FirebatBunkerDropPassengerUnitInsideBunker.On" Target="_Unit" Send="Signal InvisibleModel" />
+221a222,226
+>   <CActorModel id="FirebatBunkerDropEnterBunkerChannelBuff" parent="StormModelAnimationStyleContinuousUnit">
+>     <On Terms="Behavior.FirebatBunkerDropPassengerUnitEnteringBunker.On" Send="Create" />
+>     <On Terms="Behavior.FirebatBunkerDropPassengerUnitEnteringBunker.Off" Send="AnimBracketStop BSD" />
+>     <HostSiteOps Ops="SOpAttachCenter SOp2DRotation" HoldPosition="1" HoldRotation="1" />
+>   </CActorModel>
+1070c1075
+<     <Max value="6" />
+---
+>     <Max value="5" />
+1229c1234,1240
+<     <InitialEffect value="FirebatBunkerDropEnterBunkerExpireSet" />
+---
+>     <Alignment value="Positive" />
+>     <InfoFlags index="AlwaysUseGameText" value="1" />
+>     <BehaviorCategories index="Restorable" value="1" />
+>     <BuffFlags index="Countdown" value="0" />
+>     <Duration value="0.5" />
+>     <ExpireEffect value="FirebatBunkerDropEnterBunkerExpireSet" />
+>     <InitialEffect value="UseVehicleDismountDecloakCasterSet" />
+1711a1723,1726
+>   <CEffectAddTrackedUnit id="FirebatBunkerDropEnteringBunkerPassengerUnitTrackerAdd">
+>     <BehaviorLink value="FirebatBunkerDropPassengerUnitTracker" />
+>     <TrackerUnit Effect="FirebatBunkerDropEnterBunkerInitialSet" Value="Target" />
+>   </CEffectAddTrackedUnit>
+1741a1757,1764
+>   <CEffectCreateHealer id="FirebatFlameStreamFeedingTheFlameManaRestoration">
+>     <ValidatorArray value="TargetIsHero" />
+>     <Chance value="0" />
+>     <ImpactUnit Value="Caster" />
+>     <PeriodCount value="0" />
+>     <RechargeVital value="Energy" />
+>     <RechargeVitalRate value="5" />
+>   </CEffectCreateHealer>
+1923c1946
+<     <Cost Abil="FirebatOilSpill,Execute" ChargeTimeUse="-2.5" CooldownOperation="Add" />
+---
+>     <Cost Abil="FirebatOilSpill,Execute" ChargeTimeUse="-2" CooldownOperation="Add" />
+2295a2319
+>     <EffectArray value="FirebatBunkerDropEnteringBunkerPassengerUnitTrackerAdd" />
+2313,2316d2336
+<   <CEffectApplyBehavior id="FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior">
+<     <WhichUnit Value="Caster" />
+<     <Behavior value="FirebatBunkerDropPassengerUnitEnteringBunker" />
+<   </CEffectApplyBehavior>
+2468d2487
+<     <EffectArray value="FirebatBunkerDropPassengerUnitTrackerAdd" />
+2471c2490
+<     <EffectArray value="FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior" />
+---
+>     <EffectArray value="FirebatBunkerDropEnterBunkerEnteringBunkerChannelCreatePersistent" />
+2474a2494,2510
+>   <CEffectCreatePersistent id="FirebatBunkerDropEnterBunkerEnteringBunkerChannelCreatePersistent">
+>     <Flags index="Channeled" value="1" />
+>     <InitialEffect value="FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior" />
+>     <FinalEffect value="FirebatBunkerDropEnterBunkerEnteringBunkerRemoveBehavior" />
+>     <ExpireDelay value="0.5" />
+>     <WhichLocation Value="CasterUnit" />
+>     <PeriodicValidator value="FirebatBunkerDropCasterHasPassengerUnitEnteringBunkerBehavior" />
+>     <TimeScaleSource Value="Caster" />
+>   </CEffectCreatePersistent>
+>   <CEffectApplyBehavior id="FirebatBunkerDropEnterBunkerEnteringBunkerApplyBehavior">
+>     <WhichUnit Value="Caster" />
+>     <Behavior value="FirebatBunkerDropPassengerUnitEnteringBunker" />
+>   </CEffectApplyBehavior>
+>   <CEffectRemoveBehavior id="FirebatBunkerDropEnterBunkerEnteringBunkerRemoveBehavior">
+>     <WhichUnit Value="Caster" />
+>     <BehaviorLink value="FirebatBunkerDropPassengerUnitEnteringBunker" />
+>   </CEffectRemoveBehavior>
+2598a2635
+>     <EffectArray value="FirebatFlameStreamFeedingTheFlameManaRestoration" />
+4484a4522,4528
+>       <Modifications>
+>         <Type value="FlatModification" />
+>         <Catalog value="Effect" />
+>         <Entry value="FirebatFlameStreamFeedingTheFlameManaRestoration" />
+>         <Field value="Chance" />
+>         <Value value="1.000000" />
+>       </Modifications>
+4687,4693d4730
+<       <Modifications>
+<         <Type value="FlatModification" />
+<         <Catalog value="Behavior" />
+<         <Entry value="FirebatOilSpillSlow" />
+<         <Field value="Modification.UnifiedMoveSpeedFactor" />
+<         <Value value="-0.100000" />
+<       </Modifications>
+4916a4954,4958
+>   <CValidatorUnitCompareBehaviorCount id="FirebatBunkerDropCasterHasPassengerUnitEnteringBunkerBehavior">
+>     <WhichUnit Value="Caster" />
+>     <Compare value="GT" />
+>     <Behavior value="FirebatBunkerDropPassengerUnitEnteringBunker" />
+>   </CValidatorUnitCompareBehaviorCount>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatskindata/firebatbasedata/firebatbasedata.xml /snapshot-70616/mods/heromods/firebat.stormmod/base.stormdata/gamedata/firebatskindata/firebatbasedata/firebatbasedata.xml
+219a220,222
+>   <CModel id="FirebatBunkerDropEnterBunkerChannelBuff">
+>     <Model value="Assets\Effects\Storm_FX_Medic_Base_Medivac_Teleport\Storm_FX_Medic_Base_Medivac_Teleport.m3" />
+>   </CModel>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/firebat.stormmod/base.stormdata/ui/layout/blaze.stormlayout /snapshot-70616/mods/heromods/firebat.stormmod/base.stormdata/ui/layout/blaze.stormlayout
+3,5c3,5
+< 	<Frame type="SelectionUnitStatusPanel" name="BlazeStacksFrameContainer">
+< 		<Anchor relative="$parent"/>
+< 		<SpecificUnit val="HeroFirebat"/>
+---
+>     <Frame type="SelectionUnitStatusPanel" name="BlazeStacksFrameContainer">
+>         <Anchor relative="$parent"/>
+>         <SpecificUnit val="HeroFirebat"/>
+7,26c7,27
+< 	 
+< 		<Frame type="UnitStatusUnitStackingDebuffElement" name="StacksFrame" template="UnitStatus/StackingBehaviorTemplate">
+< 			<BuffBehavior val="FirebatIgniteMeltdownDebuff"/>
+< 			<StackBehavior val="FirebatIgniteMeltdownCounter"/>
+< 			<DebuffType val="TokenCounter"/>
+< 				 
+< 			<Frame type="ProgressBar" name="StacksProgressBar">
+< 				<Width val="64"/>
+< 			</Frame>
+< 	 
+< 			<Frame type="Image" name="Stacking">
+< 				<Texture val="@UI/Stacks/Blaze"/>
+< 			</Frame>
+< 	 
+< 			<Frame type="Image" name="StacksFull">
+< 				<Texture val="@UI/Stacks/BlazeFull"/>
+< 			</Frame>
+< 		</Frame>
+< 	</Frame>
+< 	
+---
+>         
+>         <Frame type="UnitStatusUnitStackingDebuffElement" name="StacksFrame" template="UnitStatus/StackingBehaviorTemplate">
+>             <BuffBehavior val="FirebatIgniteMeltdownDebuff"/>
+>             <StackBehavior val="FirebatIgniteMeltdownCounter"/>
+>             <DebuffType val="TokenCounter"/>
+>             
+>             <Frame type="ProgressBar" name="StacksProgressBar">
+>                 <Width val="53"/>
+>                 <Height val="40"/>
+>                 </Frame>
+>                 
+>             <Frame type="Image" name="Stacking">
+>                 <Texture val="@UI/Stacks/Blaze"/>
+>             </Frame>
+>             
+>             <Frame type="Image" name="StacksFull">
+>                 <Texture val="@UI/Stacks/BlazeFull"/>
+>             </Frame>
+>         </Frame>
+>     </Frame>
+>     
+33c34
+< 
+---
+>             
+38c39
+<     </Frame>	
+---
+>     </Frame>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/firebat.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heromods/firebat.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+1,2c1
+< ﻿5 per second=5 per second
+< Abil/Name/FirebatAdrenalineStimpack=Adrenaline Stimpack
+---
+> ﻿Abil/Name/FirebatAdrenalineStimpack=Adrenaline Stimpack
+21a21
+> Behavior/Name/FirebatBunkerDropPassengerUnitEnteringBunker=Entering Bunker
+85c85
+< Button/SimpleDisplayText/FirebatOilSpillOilDispersal=Increase Oil Spill area, Slow
+---
+> Button/SimpleDisplayText/FirebatOilSpillOilDispersal=Increase Oil Spill area
+102c102
+< Button/Tooltip/FirebatFlameStreamFeedingtheFlame=Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by <c val="#TooltipNumbers"><d ref="-Effect,FirebatFlameStreamFeedingtheFlameModifyCooldown,Cost[0].ChargeTimeUse" precision="1"/></c> seconds.
+---
+> Button/Tooltip/FirebatFlameStreamFeedingtheFlame=Each enemy Hero hit by Flame Stream reduces the cooldown of Oil Spill by <c val="#TooltipNumbers"><d ref="-Effect,FirebatFlameStreamFeedingtheFlameModifyCooldown,Cost[0].ChargeTimeUse" precision="1"/></c> seconds and refunds <c val="#TooltipNumbers"><d ref="Effect,FirebatFlameStreamFeedingTheFlameManaRestoration,RechargeVitalRate"/></c> Mana.
+118c118
+< Button/Tooltip/FirebatOilSpillOilDispersal=Increase Oil Spill's area by <c val="#TooltipNumbers"><d ref="Talent,FirebatOilSpillOilDispersal,AbilityModificationArray[0].Modifications[0].Value/Effect,FirebatOilSpillSlowSearch,AreaArray[0].Radius*100" precision="2" player="0"/>%</c> and Slow amount by <c val="#TooltipNumbers"><d ref="-Talent,FirebatOilSpillOilDispersal,AbilityModificationArray[0].Modifications[6].Value*100" precision="1"player="0"/>%</c>.
+---
+> Button/Tooltip/FirebatOilSpillOilDispersal=Increase Oil Spill's area by <c val="#TooltipNumbers"><d ref="Talent,FirebatOilSpillOilDispersal,AbilityModificationArray[0].Modifications[0].Value/Effect,FirebatOilSpillSlowSearch,AreaArray[0].Radius*100" precision="2" player="0"/>%</c>.
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/genji.stormmod/base.stormdata/gamedata/genjidata.xml /snapshot-70616/mods/heromods/genji.stormmod/base.stormdata/gamedata/genjidata.xml
+539d538
+<     <Inherits index="Visibility" value="1" />
+545d543
+<     <Inherits index="Visibility" value="1" />
+551d548
+<     <Inherits index="Visibility" value="1" />
+3398d3394
+<     <CategoryLocalAlly value="User42" />
+3405d3400
+<     <CategoryLocalAlly value="User42" />
+3508d3502
+<     <CategoryDuckingLocalAlly value="Ally_Spell_InstaCast" />
+3736d3729
+<     <CategoryLocalAlly value="User41" />
+3913d3905
+<     <CategoryLocalAlly value="User41" />
+3919d3910
+<     <CategoryDuckingLocal value="Local_Spell_Instacast" />
+4728,4729c4719,4720
+<     <MinScanRange value="5.5" />
+<     <Range value="5.5" />
+---
+>     <MinScanRange value="4.5" />
+>     <Range value="4.5" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/hanzo.stormmod/base.stormdata/gamedata/hanzodata.xml /snapshot-70616/mods/heromods/hanzo.stormmod/base.stormdata/gamedata/hanzodata.xml
+1769a1770
+>     <ValidatorArray value="TargetIsHero" />
+1771c1772
+<     <Cost Abil="HanzoScatterArrow,Execute" CooldownOperation="Add" CooldownTimeUse="-2.5" />
+---
+>     <Cost Abil="HanzoScatterArrow,Execute" CooldownOperation="Add" CooldownTimeUse="-3" />
+1798c1799
+<     <VitalFractionMax index="Life" value="0.015" />
+---
+>     <VitalFractionMax index="Life" value="0.02" />
+2430,2431c2431,2432
+<     <Amount value="188" />
+<     <MultiplicativeModifierArray index="FlawlessTechniqueTalentDamageBuff" Validator="HanzoFlawlessTechniqueIsEmpoweredBasicAttackMissile" Modifier="0.25" Crit="1" />
+---
+>     <Amount value="198" />
+>     <MultiplicativeModifierArray index="FlawlessTechniqueTalentDamageBuff" Validator="HanzoFlawlessTechniqueIsEmpoweredBasicAttackMissile" Modifier="0.3" Crit="1" />
+2604c2605
+<     <MultiplicativeModifierArray index="FlawlessTechniqueTalentDamageBonus" Validator="HanzoFlawlessTechniqueIsEmpoweredStormBowMissile" Modifier="0.25" Crit="1" />
+---
+>     <MultiplicativeModifierArray index="FlawlessTechniqueTalentDamageBonus" Validator="HanzoFlawlessTechniqueIsEmpoweredStormBowMissile" Modifier="0.3" Crit="1" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/hanzo.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heromods/hanzo.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+93c93
+< Button/Tooltip/HanzoNeverOutmatched=Reduce Scatter Arrow's Mana cost from <c val="#TooltipNumbers"><d ref="Abil,HanzoScatterArrow,Cost[0].Vital[Energy]" player="0"/></c> to <c val="#TooltipNumbers"><d ref="Abil,HanzoScatterArrow,Cost[0].Vital[Energy] + Talent,HanzoNeverOutmatched,AbilityModificationArray[0].Modifications[0].Value" player="0"/></c>. Basic Attacks lower the cooldown of Scatter Arrow by <c val="#TooltipNumbers"><d ref="-Effect,HanzoNeverOutmatchedReduceScatterArrowCooldown,Cost[0].CooldownTimeUse" player="0" precision="1"/></c> seconds.
+---
+> Button/Tooltip/HanzoNeverOutmatched=Reduce Scatter Arrow's Mana cost from <c val="#TooltipNumbers"><d ref="Abil,HanzoScatterArrow,Cost[0].Vital[Energy]" player="0"/></c> to <c val="#TooltipNumbers"><d ref="Abil,HanzoScatterArrow,Cost[0].Vital[Energy] + Talent,HanzoNeverOutmatched,AbilityModificationArray[0].Modifications[0].Value" player="0"/></c>. Basic Attacks against Heroes lower the cooldown of Scatter Arrow by <c val="#TooltipNumbers"><d ref="-Effect,HanzoNeverOutmatchedReduceScatterArrowCooldown,Cost[0].CooldownTimeUse" player="0" precision="1"/></c> seconds.
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisdata.xml /snapshot-70616/mods/heromods/malganis.stormmod/base.stormdata/gamedata/malganisdata.xml
+7c7
+<       <Cooldown TimeUse="8" />
+---
+>       <Cooldown TimeUse="9" />
+1892c1892
+<     <VitalFractionMax index="Life" value="0.04" />
+---
+>     <VitalFractionMax index="Life" value="0.03" />
+1942c1942
+<     <EffectArray Operation="Set" Reference="Abil,MalGanisFelClawsFirst,Cost.Cooldown.TimeUse" Value="8" />
+---
+>     <EffectArray Operation="Set" Reference="Abil,MalGanisFelClawsFirst,Cost.Cooldown.TimeUse" Value="9.000000" />
+2413c2413
+<     <Amount value="66" />
+---
+>     <Amount value="63" />
+2538c2538
+<     <Amount value="105" />
+---
+>     <Amount value="100" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/orphea.stormmod/base.stormdata/gamedata/orpheadata.xml /snapshot-70616/mods/heromods/orphea.stormmod/base.stormdata/gamedata/orpheadata.xml
+134c134
+<       <Cooldown TimeUse="50" />
+---
+>       <Cooldown TimeUse="70" />
+177c177
+<       <Cooldown TimeUse="25" />
+---
+>       <Cooldown Link="Abil/OrpheaChomp" TimeUse="10" />
+1599a1600
+>     <DisableValidatorArray value="OrpheaNotCurrentlyCastingChomp" />
+1840c1841
+<     <Amount value="80" />
+---
+>     <Amount value="88" />
+1845c1846
+<     <Amount value="80">
+---
+>     <Amount value="88">
+1898c1899
+<     <Amount value="150">
+---
+>     <Amount value="165">
+2748a2750
+>     <EffectArray value="OrpheaInsatiableImpactSet" />
+2831,2832c2833,2834
+<     <Amount value="150" />
+<     <MultiplicativeModifierArray index="0" Validator="OrpheaHasEnPointeTalent" Modifier="0.5" Crit="1" />
+---
+>     <Amount value="165" />
+>     <MultiplicativeModifierArray index="0" Validator="OrpheaHasEnPointeTalent" Modifier="0.75" Crit="1" />
+3567a3570,3573
+>   <CValidatorUnitOrderQueue id="OrpheaNotCurrentlyCastingChomp">
+>     <AbilLink value="OrpheaChomp" />
+>     <Find value="0" />
+>   </CValidatorUnitOrderQueue>
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/orphea.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heromods/orphea.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+103,104c103,104
+< Button/Tooltip/OrpheaLurkingTerror=After Dread erupts and for <c val="#TooltipNumbers"><d ref="Behavior,OrpheaLurkingTerrorCasterBehavior,Duration"/></c> seconds after, activate to cast Chomp from the eruption area.<n/><n/>Does not share a cooldown with Chomp.
+< Button/Tooltip/OrpheaLurkingTerrorActive=After Dread erupts and for <c val="#TooltipNumbers"><d ref="Behavior,OrpheaLurkingTerrorCasterBehavior,Duration"/></c> seconds after, activate to cast Chomp from the eruption area.<n/><n/>Does not share a cooldown with Chomp.
+---
+> Button/Tooltip/OrpheaLurkingTerror=After Dread erupts and for <c val="#TooltipNumbers"><d ref="Behavior,OrpheaLurkingTerrorCasterBehavior,Duration"/></c> seconds after, activate to cast Chomp from the eruption area.
+> Button/Tooltip/OrpheaLurkingTerrorActive=After Dread erupts and for <c val="#TooltipNumbers"><d ref="Behavior,OrpheaLurkingTerrorCasterBehavior,Duration"/></c> seconds after, activate to cast Chomp from the eruption area.
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/stukov.stormmod/base.stormdata/gamedata/stukovdata.xml /snapshot-70616/mods/heromods/stukov.stormmod/base.stormdata/gamedata/stukovdata.xml
+26c26
+<     <Range value="10" />
+---
+>     <Range value="11" />
+810c810
+<     <Scale value="10.750000" />
+---
+>     <Scale value="11.750000" />
+4368c4368
+<         <Value value="2.000000" />
+---
+>         <Value value="2.200000" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/whitemane.stormmod/base.stormdata/gamedata/whitemanedata.xml /snapshot-70616/mods/heromods/whitemane.stormmod/base.stormdata/gamedata/whitemanedata.xml
+8c8
+<       <Cooldown TimeUse="0.3" />
+---
+>       <Cooldown TimeUse="0.5" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/yrel.stormmod/base.stormdata/gamedata/yreldata.xml /snapshot-70616/mods/heromods/yrel.stormmod/base.stormdata/gamedata/yreldata.xml
+396,398c396
+<   <CActorModel id="YrelTauntFX" parent="StormAnimAddition">
+<     <Inherits index="Visibility" value="1" />
+<   </CActorModel>
+---
+>   <CActorModel id="YrelTauntFX" parent="StormAnimAddition" />
+1968d1965
+<     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+2020a2018
+>     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+2158d2155
+<     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+2233a2231
+>     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+2408a2407
+>     <ValidatorArray value="TargetIsHero" />
+2463d2461
+<     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+2490a2489
+>     <EffectArray value="YrelMaraadsInsightBuffApplyBehavior" />
+diff -r --ignore-file-name-case /snapshot-70200/mods/heromods/yrel.stormmod/enus.stormdata/localizeddata/gamestrings.txt /snapshot-70616/mods/heromods/yrel.stormmod/enus.stormdata/localizeddata/gamestrings.txt
+96c96
+< Button/Tooltip/YrelMaraadsInsight=After casting a Basic Ability, Yrel's next Basic Attack heals her for <c val="#TooltipNumbers"><d ref="Effect,YrelMaraadsInsightCreateHealer,RechargeVitalRate"/></c>.
+---
+> Button/Tooltip/YrelMaraadsInsight=After damaging an enemy Hero with a Basic Ability, Yrel's next Basic Attack heals her for <c val="#TooltipNumbers"><d ref="Effect,YrelMaraadsInsightCreateHealer,RechargeVitalRate"/></c>.

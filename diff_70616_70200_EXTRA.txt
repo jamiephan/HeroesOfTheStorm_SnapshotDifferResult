@@ -1,0 +1,32 @@
+mods/core.stormmod/base.stormdata/depotcache/05/88/05889a267a73171a4fcf3be34384dff46e13a331a5d4b71cd9d7be8cdb6b059e.s2ma
+mods/core.stormmod/base.stormdata/depotcache/32/a5/32a5e04ea70d8410c8de8031b9343f2bb49b6aab500b4ed18d369475f2dc6b43.s2ma
+mods/core.stormmod/base.stormdata/depotcache/73/59/73596341183bd5b01af555d36aa368ac5a897360e4d661d038c5adfe2f475458.s2ma
+mods/core.stormmod/base.stormdata/depotcache/8f/01/8f0114d090d6a2cbfeac909903a7277307544b7947f901bbcc56b78052a03cb9.s2ma
+mods/core.stormmod/base.stormdata/depotcache/ef/e6/efe6ebbff0cf313590f635e8ab4e1ca461b4351626888d973fe73f727e57ab41.s2ml
+versions.osxarchive/versions/base70200/heroes.app/contents/pkginfo
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/application.nib
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/de.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/de.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/en.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/en.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/es-419.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/es-419.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/es.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/es.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/fr.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/fr.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/icon.icns
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/it.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/it.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/ko.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/ko.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/pl.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/pl.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/pt-br.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/ru.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/zh-hans.lproj/appstrings.txt
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/zh-hans.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/resources/zh-hant.lproj/game.strings
+versions.osxarchive/versions/base70200/heroes.app/contents/xpcservices/browserproxy.xpc/contents/frameworks/chromium embedded framework.framework/resources/icudtl.dat
+versions.osxarchive/versions/base70200/heroes.app/contents/xpcservices/browserproxy.xpc/contents/frameworks/chromium embedded framework.framework/resources/natives_blob.bin
+versions.winarchive/versions/base70200/heroesofthestorm_x64.exe
